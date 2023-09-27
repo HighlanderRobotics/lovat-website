@@ -5,7 +5,7 @@
 </script>
 
 <section>
-    <h1>Scale up your strategy in one download.</h1>
+    <h1>Scale up your strategy.</h1>
     <div>
         <Button element="a" href="/download">Try it out</Button>
     </div>
