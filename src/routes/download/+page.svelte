@@ -33,7 +33,7 @@
                     <a href={apkLink}>Download the APK</a>
                 </div>
             {:else if data.deviceType === 'android'}
-                <Button>Download APK</Button>
+                <Button  element="a" href={apkLink}>Download APK</Button>
                 <div class="other-plaform">
                     <p>Using iOS?</p>
                     <a href={testFlightLink}>Join with TestFlight</a>
