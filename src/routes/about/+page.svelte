@@ -18,7 +18,7 @@
             <p>We look forward to documenting our journey and sharing Lovat in the 2024 season!</p>
         </div>
         <div class="signatures">
-            
+
         </div>
     </div>
 </section>
@@ -35,6 +35,7 @@
         max-width: 444px;
 
         padding: 15px;
+        margin: 15px;
         border-radius: 5px;
         border: 1px solid rgba(214, 198, 255, 0.35);
         background: linear-gradient(180deg, rgba(59, 53, 74, 0.50) 0%, #292929 100%);
@@ -102,5 +103,11 @@
 
     .about p {
         margin-bottom: 1em;
+    }
+
+    @media (max-width: 630px) {
+        .about {
+            padding: 20px;
+        }
     }
 </style>
