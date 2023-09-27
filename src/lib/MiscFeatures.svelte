@@ -8,7 +8,7 @@
         <div class="feature">
             <Icon icon="devices" />
             <h2>Cross-platform</h2>
-            <p>The Lovat apps support iOS and Android, with more on the way. Scouters can use their existing devices without the need to share</p>
+            <p>The Lovat apps support iOS and Android, with more on the way. Scouters can use their existing devices without the need to share.</p>
         </div>
         <div class="feature">
             <Icon icon="cloud_off" />
