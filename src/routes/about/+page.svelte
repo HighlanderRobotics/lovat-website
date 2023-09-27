@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>About | Lovat</title>
+</svelte:head>
+
 <section class="definition">
     <div class="content">
         <a href="https://en.wikipedia.org/wiki/Lovat_Scouts" target="_blank">From Wikipedia</a>

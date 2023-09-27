@@ -2,6 +2,10 @@
 	import { page } from '$app/stores';
 </script>
 
+<svelte:head>
+    <title>{$page.error} | Lovat</title>
+</svelte:head>
+
 <div class="full-center">
     <div class="content">
         <div class="sad-face">:(</div>

@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Download | Lovat</title>
+</svelte:head>
+
 <script lang="ts">
 	import { Button } from 'magnolia-ui-svelte';
     import type { PageData } from './$types';
