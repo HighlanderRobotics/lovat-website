@@ -53,7 +53,7 @@
     .feature-highlight {
         display: flex;
         align-items: center;
-        min-height: 100vh;
+        min-height: 70vh;
         z-index: 10;
     }
 
@@ -142,6 +142,7 @@
         transform: translate(-50%, -50%);
         z-index: 3;
         width: 227px;
+        pointer-events: none;
     }
 
     svg {
