@@ -76,7 +76,7 @@
         display: none;
 
         position: absolute;
-        right: 5px;
+        right: 15px;
         top: 50%;
         transform: translateY(-50%);
     }
