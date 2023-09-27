@@ -21,7 +21,7 @@ export const load: PageServerLoad = async ({ request, url }) => {
 	}
 
 	if (deviceType === 'other') {
-		qrCode = await QRCode.toDataURL(url.toString());
+		qrCode = await QRCode.toDataURL(url.origin + '/download');
 	}
 
 	return {
