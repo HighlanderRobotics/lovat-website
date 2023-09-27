@@ -3,7 +3,7 @@
     import type { PageData } from './$types';
 
     const testFlightLink = 'https://testflight.apple.com/join/iydxu0gu';
-    const apkLink = '';
+    const apkLink = 'https://github.com/HighlanderRobotics/scouting_dashboard_app/releases/latest/download/app-release.apk';
 	
 	export let data: PageData;
 </script>
