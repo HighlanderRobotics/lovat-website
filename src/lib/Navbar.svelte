@@ -55,7 +55,6 @@
 
     .main-title {
         color: var(--victory-purple);
-        font-family: Heebo;
         font-size: 30px;
         font-style: normal;
         font-weight: 500;

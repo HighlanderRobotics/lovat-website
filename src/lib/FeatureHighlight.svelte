@@ -75,7 +75,6 @@
         border: 1px solid var(--victory-purple);
         color: var(--victory-purple);
 
-        font-family: Heebo;
         font-size: 12px;
         font-style: normal;
         font-weight: 500;
@@ -91,7 +90,6 @@
         margin-bottom: 18px;
 
         color: var(--on-background);
-        font-family: Heebo;
         font-size: 40px;
         font-style: normal;
         font-weight: 500;
@@ -102,7 +100,6 @@
         color: var(--body);
 
         /* Body/Medium */
-        font-family: Heebo;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

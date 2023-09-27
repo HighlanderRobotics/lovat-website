@@ -16,7 +16,6 @@
     h1 {
         color: var(--on-background);
         text-align: center;
-        font-family: Heebo;
         font-size: 40px;
         font-style: normal;
         font-weight: 500;
@@ -27,10 +26,6 @@
         text-align: center;
         padding-top: 20px;
         padding-bottom: 30px;
-    }
-
-    p {
-        color: var(--body);
     }
 
     section {
