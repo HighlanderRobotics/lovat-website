@@ -11,9 +11,3 @@
         </div>
     </MagnoliaUIRoot>
 </div>
-
-<style>
-    .main-content {
-        margin-top: 65px;
-    }
-</style>
