@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { Button } from 'magnolia-ui-svelte';
     import type { PageData } from './$types';
+
+    const testFlightLink = 'https://testflight.apple.com/join/iydxu0gu';
+    const apkLink = '';
 	
 	export let data: PageData;
 </script>
@@ -20,16 +23,16 @@
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}
-                <Button element="a" href="https://testflight.apple.com/join/iydxu0gu">Join with TestFlight</Button>
+                <Button element="a" href={testFlightLink}>Join with TestFlight</Button>
                 <div class="other-platform">
                     <p>Using Android?</p>
-                    <a href="">Download the APK</a>
+                    <a href={apkLink}>Download the APK</a>
                 </div>
             {:else if data.deviceType === 'android'}
                 <Button>Download APK</Button>
                 <div class="other-plaform">
                     <p>Using iOS?</p>
-                    <a href="https://testflight.apple.com/join/iydxu0gu">Join with TestFlight</a>
+                    <a href={testFlightLink}>Join with TestFlight</a>
                 </div>
             {:else}
                 <div class="qr">
@@ -40,11 +43,11 @@
                 <div class="downloads">
                     <div class="platform">
                         <p>iOS</p>
-                        <a href="https://testflight.apple.com/join/iydxu0gu">TestFlight</a>
+                        <a href={testFlightLink}>TestFlight</a>
                     </div>
                     <div class="platform">
                         <p>Android</p>
-                        <a href="">Download APK</a>
+                        <a href={apkLink}>Download APK</a>
                     </div>
                 </div>
             {/if}
