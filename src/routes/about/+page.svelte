@@ -77,6 +77,11 @@
         line-height: 60px;
     }
 
+    .definition h1 {
+        height: 60px;
+        pointer-events: none;
+    }
+
     .definition p {
         color: var(--body);
 
