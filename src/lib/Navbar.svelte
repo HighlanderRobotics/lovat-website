@@ -1,7 +1,12 @@
 <script>
+	import { onNavigate } from "$app/navigation";
 	import { Button, DensityProvider, Icon } from "magnolia-ui-svelte"
 
     let expanded = false;
+
+    onNavigate(() => {
+        expanded = false
+    })
 </script>
 <nav>
     <a href="https://frc8033.com/" target="_blank">
