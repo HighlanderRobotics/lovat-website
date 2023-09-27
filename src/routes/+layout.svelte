@@ -6,9 +6,14 @@
 <div class="color-scheme-dark">
     <MagnoliaUIRoot>
         <Navbar />
-        <slot />
+        <div class="main-content">
+            <slot />
+        </div>
     </MagnoliaUIRoot>
 </div>
 
 <style>
+    .main-content {
+        margin-top: 65px;
+    }
 </style>

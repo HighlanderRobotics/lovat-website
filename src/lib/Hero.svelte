@@ -1,5 +1,5 @@
 <script>
-	import { Button } from "magnolia-ui-svelte";
+	import { Button, Icon } from "magnolia-ui-svelte";
 </script>
 <section class="hero">
     <svg width="824" height="521" viewBox="0 0 824 521" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -14,10 +14,15 @@
     </svg>
         
     <img src="/assets/img/scouting-app-render.png" alt="A render of the scouting app">
-    <div class="content">
-        <h1>The big <span class="highlight">catchy statement</span> goes here.</h1>
-        <p>And maybe a subtitle to clarify and justify such a bold statement.</p>
-        <Button variant="primary">Watch it in action</Button>
+    <div class="content-wrapper">
+        <div class="content">
+            <h1>Centralize your team’s strategy in minutes.</h1>
+            <p>Easily view real-time analytics built on human-collected data.</p>
+            <div class="button-items">
+                <Button variant="primary" element="a" href="/download">See how it works</Button>
+                <p class="small">A preview of Lovat Dashboard will be available at Chezy Champs.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -26,6 +31,7 @@
         height: 712px;
         display: flex;
         align-items: center;
+        justify-content: center;
         position: relative;
     }
 
@@ -36,29 +42,42 @@
         line-height: 60px; /* 100% */
     }
 
-    .highlight {
-        color: var(--victory-purple);
-    }
-
     p {
         margin-top: 8px;
         margin-bottom: 24px;
+        color: var(--body)
     }
 
+    .small {
+        margin-top: 15px;
+        font-size: 12px;
+        max-width: 200px;
+    }
+
+    .content-wrapper {
+        width: min(1000px, 100vw);
+    }
     .content {
-        padding: 62px;
-        max-width: 700px;
+        /* margin: 31px 400px 31px 31px; */
+        max-width: 674px;
+        z-index: 10;
+        padding: 24px;
     }
 
     img {
         position: absolute;
         bottom: 0;
         right: 0;
+        pointer-events: none;
+        z-index: 6;
+        width: max(min(780px, 60vw), 400px);
     }
 
     svg {
         position: absolute;
         bottom: 0;
         right: 0;
+        z-index: 5;
+        width: max(min(1000px, 80vw), 600px);
     }
 </style>

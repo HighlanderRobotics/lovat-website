@@ -1,30 +1,25 @@
 <script>
 
-	import { Button, Icon } from "magnolia-ui-svelte";
+	import { Icon } from "magnolia-ui-svelte";
 
 </script>
 <section>
-    <div>
-        <Icon icon="devices" />
-        <h2>Cross-platform</h2>
-        <p>The Lovat apps support iOS and </p>
-        <p>Android, with more on the way. </p>
-        <p>Scouters can use their existing </p>
-        <p>devices without the need to share</p>
-    </div>
-    <div>
-        <Icon icon="cloud_off" />
-        <h2>Offline support</h2>
-        <p>Spotty connections shouldn’t mean </p>
-        <p>spotty data. Matches save to scout </p>
-        <p>devices and can be transferred </p>
-        <p>via a network or QR codes.</p>
-    </div>
-    <div>
-        <Icon icon="person" />
-        <h2>Feature #3</h2>
-        <p>One more feature here to convince</p>
-        <p>people to use the website</p>
+    <div class="content">
+        <div class="feature">
+            <Icon icon="devices" />
+            <h2>Cross-platform</h2>
+            <p>The Lovat apps support iOS and Android, with more on the way. Scouters can use their existing devices without the need to share</p>
+        </div>
+        <div class="feature">
+            <Icon icon="cloud_off" />
+            <h2>Offline support</h2>
+            <p>Spotty connections shouldn’t mean spotty data. Matches save to scout devices and can be transferred via a network or QR codes.</p>
+        </div>
+        <div class="feature">
+            <Icon icon="schedule" />
+            <h2>Quick setup</h2>
+            <p>With one download, gain access to our real-time Chezy data and all our analytics.</p>
+        </div>
     </div>
 </section>
 
@@ -37,19 +32,29 @@
 </div>
 
 <style>
-    section {
-        padding-top: 50px;
-        padding-bottom: 20px;
+    .content {
         display: flex;
-        justify-content: space-evenly;
         background-color: #1f1f1f;
+
+        max-width: 1000px;
+        gap: 50px;
+        margin: 60px auto 20px auto;
+        padding: 0px 24px;
+    }
+
+    p {
+        color: var(--body);
+    }
+
+    .feature {
+        flex: 1;
     }
 
     .whitepaper-wrapper {
         display: flex;
         justify-content: center;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
 
     a {
@@ -74,5 +79,11 @@
 
     a:hover span {
         text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+        .content {
+            flex-direction: column;
+        }
     }
 </style>
