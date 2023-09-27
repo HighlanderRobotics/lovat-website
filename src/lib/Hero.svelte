@@ -56,11 +56,12 @@
 
     .content-wrapper {
         width: min(1000px, 100vw);
+        position: absolute;
+        z-index: 10;
     }
     .content {
         /* margin: 31px 400px 31px 31px; */
         max-width: 674px;
-        z-index: 10;
         padding: 24px;
     }
 
