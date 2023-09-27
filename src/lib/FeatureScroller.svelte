@@ -31,7 +31,7 @@
     <FeatureHighlight
 		featureName="Match Prediction"
 		headline="Predict the future to change the future."
-		body="Adjust your strategy based on a variety of predictions. Quickly spot other alliances weaknesses by flipping in between the red and blue alliance."
+		body="Adjust your strategy based on a variety of predictions. Quickly spot other alliances’ weaknesses by flipping in between the red and blue alliance."
 		image="match-predictor.png"
 		bind:deviceWasVisible={visibleDevices[2]}
 		deviceIsActive={visibleDevices?.findLastIndex(v => v) === 2}
