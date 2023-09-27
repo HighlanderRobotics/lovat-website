@@ -19,8 +19,8 @@
             <h1>Centralize your team’s strategy in minutes.</h1>
             <p>Easily view real-time analytics built on human-collected data.</p>
             <div class="button-items">
-                <Button variant="primary" element="a" href="/download">See how it works</Button>
-                <p class="small">A preview of Lovat Dashboard will be available at Chezy Champs.</p>
+                <Button variant="primary" element="a" href="/download">Try it out</Button>
+                <p class="small">A preview of Lovat Dashboard is available for Chezy Champs.</p>
             </div>
         </div>
     </div>

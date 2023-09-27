@@ -14,6 +14,8 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/qrcode": "^1.5.2",
+		"@types/ua-parser-js": "^0.7.37",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"eslint": "^8.28.0",
@@ -29,6 +31,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"magnolia-ui-svelte": "github:highlanderrobotics/magnolia-ui-svelte#production"
+		"magnolia-ui-svelte": "github:highlanderrobotics/magnolia-ui-svelte#production",
+		"qrcode": "^1.5.3",
+		"ua-parser-js": "^1.0.36"
 	}
 }

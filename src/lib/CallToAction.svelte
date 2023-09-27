@@ -7,7 +7,7 @@
 <section>
     <h1>The final call to action.</h1>
     <div>
-        <p>Next available at Chezy Champs</p>
+        <Button element="a" href="/download">Try it out</Button>
     </div>
 </section>
 
