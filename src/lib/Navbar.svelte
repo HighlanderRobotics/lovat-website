@@ -50,6 +50,7 @@
     .actions {
         display: flex;
         align-items: center;
+        gap: 15px;
     }
 
     .main-title {
@@ -92,6 +93,7 @@
             top: 0;
 
             flex-direction: column;
+            gap: 5px;
             align-items: start;
             background-color: var(--background);
             padding: 10px;
