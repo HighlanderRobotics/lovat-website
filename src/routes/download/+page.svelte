@@ -24,6 +24,10 @@
                 To take an early look, Lovat Dashboard, along with all of 8033’s scouting data for Chezy Champs 2023 will be available to everyone during the event.
                 If you are interested in using the full system, please use this opportunity to download Lovat Dashboard and preview everything it has to offer.
             </p>
+
+            <p>
+                When you first launch the app, you’ll be prompted for your team number. If you’re not currently associated with an FRC team, enter 9999.
+            </p>
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}
