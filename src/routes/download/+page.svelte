@@ -6,7 +6,7 @@
 	import { Button } from 'magnolia-ui-svelte';
     import type { PageData } from './$types';
 
-    const appStoreLink = 'https://apps.apple.com/us/app/lovat-dashboard/id6467466592';
+    const appStoreLink = 'https://apps.apple.com/app/lovat-dashboard/id6467466592';
     const apkLink = 'https://github.com/HighlanderRobotics/scouting_dashboard_app/releases/latest/download/app-release.apk';
 	
 	export let data: PageData;
