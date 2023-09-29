@@ -24,9 +24,12 @@
 </section>
 
 <div class="whitepaper-wrapper">
-    <!-- svelte-ignore a11y-invalid-attribute -->
     <a href="https://docs.google.com/document/d/1dwBV2D_n_CE62xlOW9997xGdaEdXu04mVXeAho9EgnY/preview" target="_blank">
         <span>Read the whitepaper</span>
+        <Icon icon="navigate_next" color="var(--victory-purple)" />
+    </a>
+    <a href="https://www.youtube.com/watch?v=P_GO878wM_Y" target="_blank">
+        <span>Watch the video</span>
         <Icon icon="navigate_next" color="var(--victory-purple)" />
     </a>
 </div>
@@ -52,7 +55,10 @@
 
     .whitepaper-wrapper {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        gap: 10px;
         padding-top: 30px;
         padding-bottom: 60px;
     }
