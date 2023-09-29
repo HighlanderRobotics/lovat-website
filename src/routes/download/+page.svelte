@@ -6,7 +6,7 @@
 	import { Button } from 'magnolia-ui-svelte';
     import type { PageData } from './$types';
 
-    const testFlightLink = 'https://testflight.apple.com/join/iydxu0gu';
+    const appStoreLink = 'https://apps.apple.com/us/app/lovat-dashboard/id6467466592';
     const apkLink = 'https://github.com/HighlanderRobotics/scouting_dashboard_app/releases/latest/download/app-release.apk';
 	
 	export let data: PageData;
@@ -27,7 +27,7 @@
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}
-                <Button element="a" href={testFlightLink}>Join with TestFlight</Button>
+                <Button element="a" href={appStoreLink}>App Store</Button>
                 <div class="other-platform">
                     <p>Using Android?</p>
                     <a href={apkLink}>Download the APK</a>
@@ -36,7 +36,7 @@
                 <Button  element="a" href={apkLink}>Download APK</Button>
                 <div class="other-plaform">
                     <p>Using iOS?</p>
-                    <a href={testFlightLink}>Join with TestFlight</a>
+                    <a href={appStoreLink}>App Store</a>
                 </div>
             {:else}
                 <div class="qr">
@@ -47,7 +47,7 @@
                 <div class="downloads">
                     <div class="platform">
                         <p>iOS</p>
-                        <a href={testFlightLink}>TestFlight</a>
+                        <a href={appStoreLink}>App Store</a>
                     </div>
                     <div class="platform">
                         <p>Android</p>
