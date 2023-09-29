@@ -26,11 +26,11 @@
 <div class="whitepaper-wrapper">
     <a href="https://docs.google.com/document/d/1dwBV2D_n_CE62xlOW9997xGdaEdXu04mVXeAho9EgnY/preview" target="_blank">
         <span>Read the whitepaper</span>
-        <Icon icon="navigate_next" color="var(--victory-purple)" />
+        <Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
     </a>
     <a href="https://www.youtube.com/watch?v=P_GO878wM_Y" target="_blank">
         <span>Watch the video</span>
-        <Icon icon="navigate_next" color="var(--victory-purple)" />
+        <Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
     </a>
 </div>
 
@@ -69,7 +69,7 @@
         text-decoration: none;
         color: var(--victory-purple);
 
-        font-size: 16px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
