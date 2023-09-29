@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>{$page.error} | Lovat</title>
+    <title>{$page.error?.message || 'Error'} | Lovat</title>
 </svelte:head>
 
 <div class="full-center">
