@@ -14,18 +14,6 @@
         </p>
     </div>
 </section>
-<section class="about">
-    <div class="content">
-        <div class="text">
-            <p>8033’s scouting system was initiated by freshmen Jacob Trentini and Collin Cameron, who recognized the need for an effective scouting system at the off-season competition Chezy Champs 2022 and saw its potential in aiding teams’ strategic decisions during competitions. Joined by freshman Cassie Colby and seniors Jasper Tripp and Barry Balasingham, they set off to create a comprehensive scouting system for the 2023 season. Each member was assigned to a specific role. Jacob created the data collection app, Cassie, the Scouting lead, handled the analysis and a portion of the backend work, Collin made the dashboard app, Jasper, the Strategy lead, worked on the mathematical analysis for the system, and Barry worked on the server.</p>
-            <p>Over the 2023 season, the scouting software team built and iterated on the system. Finally, after months of hard work we opened up the dashboard app with Galileo data at the 2023 World Championship. We received lots of positive feedback about the system and soon after were joined by two new members: Sophie and Olivia. Sophie Bowyer will work on the backend, and Olivia will work on the frontend of the Collection app. Together we decided to spend the next year making Lovat as polished and accessible to other teams as possible.</p>
-            <p>We look forward to documenting our journey and sharing Lovat in the 2024 season!</p>
-        </div>
-        <div class="signatures">
-
-        </div>
-    </div>
-</section>
 
 <style>
     .definition {
