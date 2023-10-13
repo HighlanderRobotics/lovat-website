@@ -10,7 +10,7 @@
 </script>
 <nav>
     <a href="https://frc8033.com/" target="_blank">
-        <img src="assets/img/logo.png" alt="8033">
+        <img src="/assets/img/logo.png" alt="8033">
     </a>
     <a class="main-title" href="/">Lovat</a>
     <button class="menu-button" on:click={() => expanded = !expanded}>
