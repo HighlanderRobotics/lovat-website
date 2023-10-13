@@ -3,6 +3,10 @@
 	import { Button, TextField } from "magnolia-ui-svelte";
 </script>
 
+<svelte:head>
+    <title>Contact | Lovat</title>
+</svelte:head>
+
 <section class="info">
     <div class="content">
         <h1>Get in touch</h1>

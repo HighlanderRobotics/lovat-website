@@ -2,6 +2,11 @@
 	import { Button } from "magnolia-ui-svelte";
 
 </script>
+
+<svelte:head>
+    <title>Contact | Lovat</title>
+</svelte:head>
+
 <div class="container">
     <div class="content">
         <h1>Whoosh!</h1>
