@@ -62,6 +62,7 @@
         flex-direction: column;
         max-width: 460px;
         margin: 30px auto;
+        padding: 0 20px;
     }
 
     label {
