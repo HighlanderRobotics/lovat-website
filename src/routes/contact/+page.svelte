@@ -60,7 +60,7 @@
     form {
         display: flex;
         flex-direction: column;
-        max-width: 460px;
+        max-width: 500px;
         margin: 30px auto;
         padding: 0 20px;
     }
