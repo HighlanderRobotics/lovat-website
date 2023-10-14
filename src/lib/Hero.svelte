@@ -19,8 +19,7 @@
             <h1>Centralize your team’s strategy in minutes.</h1>
             <p>Easily view real-time analytics built on human-collected data.</p>
             <div class="button-items">
-                <Button variant="primary" element="a" href="/download">Try it out</Button>
-                <p class="small">A preview of Lovat Dashboard is available for Chezy Champs.</p>
+                <Button variant="primary" element="a" href="/waitlist">Join the waitlist</Button>
             </div>
         </div>
     </div>
@@ -46,12 +45,6 @@
         margin-top: 8px;
         margin-bottom: 24px;
         color: var(--body)
-    }
-
-    .small {
-        margin-top: 15px;
-        font-size: 12px;
-        max-width: 200px;
     }
 
     .content-wrapper {

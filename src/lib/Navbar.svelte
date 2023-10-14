@@ -20,7 +20,7 @@
         <div class="actions" class:expanded>
             <Button variant="text-only-secondary" element="a" href="/about">About</Button>
             <Button variant="text-only-secondary" element="a" href="/contact">Contact</Button>
-            <Button variant="secondary" element="a" href="/download">Try it out</Button>
+            <Button variant="secondary" element="a" href="/waitlist">Join the waitlist</Button>
         </div>
     </DensityProvider>
 </nav>
