@@ -13,7 +13,11 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
 			split: false,
-		})
+		}),
+		csrf: {
+			// Custom logic that checks the origin is implemented in src/hooks.server.ts
+			checkOrigin: false,
+		}
 	}
 };
 
