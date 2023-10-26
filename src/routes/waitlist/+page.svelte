@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { enhance } from "$app/forms";
 	import { Button, TextField } from "magnolia-ui-svelte";
+
+    let submitClicked = false;
 </script>
 
 <svelte:head>
@@ -14,7 +16,7 @@
     </div>
 </section>
 <section class="form">
-    <form method="POST" use:enhance>
+    <form method="POST" use:enhance on:submit={() => submitClicked = true}>
         <label for="email">Email</label>
         <TextField name="email" id="email" type="email" placeholder="woodie.flowers@firstinspires.org" required />
 
@@ -22,7 +24,9 @@
         <TextField name="team" id="team" placeholder="8033" />
 
         <div class="submit">
-            <Button>Sign up</Button>
+            <Button disabled={submitClicked}>
+                Sign up
+            </Button>
         </div>
     </form>
 </section>
