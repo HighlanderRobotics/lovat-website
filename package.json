@@ -15,6 +15,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-netlify": "^2.0.8",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/gtag.js": "^0.0.18",
 		"@types/qrcode": "^1.5.2",
 		"@types/ua-parser-js": "^0.7.37",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
