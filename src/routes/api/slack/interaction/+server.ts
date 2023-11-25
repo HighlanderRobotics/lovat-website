@@ -2,17 +2,18 @@ import { error, text } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { SLACK_SIGNING_SECRET } from '$env/static/private';
 import { createHmac } from 'crypto';
+import { sendSignedRequest } from '$lib/util/sendSignedRequest';
 
 export const POST: RequestHandler = async (event) => {
     const textRequest = await event.request.clone();
     const formData = await event.request.formData();
-    const payload = formData.get('payload');
+    const payloadString = formData.get('payload');
 
-    if (payload === null) {
+    if (payloadString === null) {
         throw error(400, 'Missing payload');
     }
 
-    if (typeof payload !== 'string') {
+    if (typeof payloadString !== 'string') {
         throw error(400, 'Invalid payload');
     }
 
@@ -40,5 +41,61 @@ export const POST: RequestHandler = async (event) => {
         throw error(500, 'Invalid signature');
     }
 
+    const payload = JSON.parse(payloadString);
+
+    if (payload.type === 'block_actions' && payload.actions !== undefined) {
+        for (let i = 0; i < payload.actions.length; i++) {
+            const action = payload.actions[i];
+            
+            switch (action.action_id) {
+                case 'verify_action':
+                    try {
+                        await handleApproveAction(action);
+                        return text('ok');
+                    } catch (e) {
+                        console.log(e);
+                        throw error(500, 'Failed to approve team');
+                    }
+                case 'reject_action':
+                    try {
+                        await handleRejectAction(action);
+                        return text('ok');
+                    } catch (e) {
+                        console.log(e);
+                        throw error(500, 'Failed to reject team');
+                    }
+                default:
+                    console.log(`Received unknown action from Slack: ${action.action_id}`);
+                    return text('ok');
+            }
+        }
+    }
+
     return text('ok');
 };
+
+async function handleApproveAction(action: { value: string; }) {
+    const team = parseInt(action.value.split('_')[1]);
+
+    if (isNaN(team)) {
+        console.log('Invalid team number');
+        return;
+    }
+    
+    await sendSignedRequest(`/manager/registeredteams/${team}/approve`, 'POST', '');
+
+    console.log(`Team ${team} approved successfully`);
+}
+
+async function handleRejectAction(action: { value: string; }) {
+    const team = parseInt(action.value.split('_')[1]);
+
+    if (isNaN(team)) {
+        console.log('Invalid team number');
+        return;
+    }
+    
+    await sendSignedRequest(`/manager/registeredteams/${team}/reject`, 'POST', '');
+
+    console.log(`Team ${team} rejected successfully`);
+}
