@@ -20,8 +20,10 @@ export async function sendSignedRequest(path: string, method: string, body: stri
         body
     });
 
-    if (response.status !== 200) {
+    if (response.status === 401) {
         console.log(`Failed to send signed request: ${response.status} ${await response.text()}`);
         throw new Error('Failed to send signed request');
     }
+
+    return response;
 }
