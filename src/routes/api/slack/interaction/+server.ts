@@ -82,7 +82,7 @@ async function handleApproveAction(action: { value: string; }) {
         return;
     }
     
-    await sendSignedRequest(`/manager/registeredteams/${team}/approve`, 'POST', '');
+    await sendSignedRequest(`/v1/manager/registeredteams/${team}/approve`, 'POST', '');
 
     console.log(`Team ${team} approved successfully`);
 }
@@ -95,7 +95,7 @@ async function handleRejectAction(action: { value: string; }) {
         return;
     }
     
-    await sendSignedRequest(`/manager/registeredteams/${team}/reject`, 'POST', '');
+    await sendSignedRequest(`/v1/manager/registeredteams/${team}/reject`, 'POST', '');
 
     console.log(`Team ${team} rejected successfully`);
 }

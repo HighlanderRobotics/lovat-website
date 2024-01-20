@@ -5,7 +5,7 @@ import type { PageServerLoad } from "./$types";
 export const load: PageServerLoad = async ({ params }) => {
     const code = params.code.toUpperCase();
 
-    const response = await sendSignedRequest(`/manager/onboarding/verifyemail`, "POST", JSON.stringify({ code }));
+    const response = await sendSignedRequest(`/v1/manager/onboarding/verifyemail`, "POST", JSON.stringify({ code }));
 
     if (response.status === 200) {
         return {
