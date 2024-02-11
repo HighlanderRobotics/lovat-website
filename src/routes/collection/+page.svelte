@@ -5,21 +5,24 @@
 
 <section class="front-page">
     <div class="content-wrapper">
-        <h1>Lovat Collection</h1>
+        <div class="header"> 
+            <img class="icon" src="/assets/img/collection-icon.png" alt="Screenshot of Lovat's Collection icon.">
+            <h1>Lovat Collection</h1>
+        </div>
         <p>Watch our training video:</p>
         <div class="video-description">
             <br>
-            <p>This video covers every single feature in Lovat Collection including onboarding, settings, all the game screens, and more. It is crucial that every single scouter watches this video in its entirety. All the resources below are covered in the video, and are just there to serve as reminders not as alternate training materials.</p>
+            <p>This video covers every single feature in Lovat Collection including onboarding, settings, all the game screens, and more. It is crucial that every single scouter watches this video in its entirety. All the resources below are covered in the video, and are just there to serve as reminders, not as alternate training materials.</p>
         </div>
     </div>
 </section>
 
-<section class="info">
+<section class="onboarding">
     <div class="onboarding-content">
         <h1>Onboarding</h1>
         <div class="phone-row">
             <div class="phone-column">
-                <div class="phone">
+                <div class="phone centered">
                     <img src="/assets/img/onboarding-1.PNG" alt="Screenshot of Lovat's onboarding feature">
                     <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M58.9505 0H192.05C212.684 0 223.001 0 230.883 4.01576C237.815 7.54812 243.452 13.1845 246.984 20.1172C251 27.9986 251 38.3159 251 58.9505V458.401C251 479.036 251 489.353 246.984 497.234C243.452 504.167 237.815 509.804 230.883 513.336C223.001 517.352 212.684 517.352 192.05 517.352H58.9505C38.3159 517.352 27.9986 517.352 20.1172 513.336C13.1845 509.804 7.54812 504.167 4.01576 497.234C0 489.353 0 479.036 0 458.401V58.9504C0 38.3159 0 27.9986 4.01576 20.1172C7.54812 13.1845 13.1845 7.54812 20.1172 4.01576C27.9986 0 38.3159 0 58.9505 0ZM238.719 465.225V52.1266C238.719 38.5755 238.719 31.8 236.04 26.6427C233.782 22.2967 230.238 18.7531 225.892 16.4955C220.735 13.8165 213.96 13.8165 200.409 13.8165H193.602C190.964 13.8165 188.826 15.9548 188.826 18.5926C188.826 26.129 182.716 32.2385 175.18 32.2385H76.204C68.6676 32.2385 62.5581 26.129 62.5581 18.5926C62.5581 15.9548 60.4198 13.8165 57.782 13.8165H50.5915C37.0404 13.8165 30.2648 13.8165 25.1075 16.4955C20.7615 18.7531 17.2179 22.2967 14.9604 26.6427C12.2813 31.8 12.2813 38.5755 12.2813 52.1266V465.225C12.2813 478.776 12.2813 485.552 14.9604 490.709C17.2179 495.055 20.7615 498.599 25.1075 500.856C30.2648 503.535 37.0404 503.535 50.5915 503.535H200.409C213.96 503.535 220.735 503.535 225.892 500.856C230.238 498.599 233.782 495.055 236.04 490.709C238.719 485.552 238.719 478.776 238.719 465.225Z" fill="#050505"/>
@@ -40,11 +43,11 @@
                         </defs>
                     </svg>
                 </div>
-                <p>Get your team code from your scouting lead. If they have not already onboarded your team on Lovat Dashboard, instruct them to do so on LINK TO DASHBOARD APP PAGE</p>
+                <p>Get your team code from your scouting lead. If they have not already onboarded your team on Lovat Dashboard, instruct them to do so on [LINK TO DASHBOARD APP PAGE].</p>
             </div>
-      
+
             <div class="phone-column">
-                <div class="phone">
+                <div class="phone centered">
                     <img src="/assets/img/onboarding-2.PNG" alt="Screenshot of Lovat's onboarding feature">
                     <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M58.9505 0H192.05C212.684 0 223.001 0 230.883 4.01576C237.815 7.54812 243.452 13.1845 246.984 20.1172C251 27.9986 251 38.3159 251 58.9505V458.401C251 479.036 251 489.353 246.984 497.234C243.452 504.167 237.815 509.804 230.883 513.336C223.001 517.352 212.684 517.352 192.05 517.352H58.9505C38.3159 517.352 27.9986 517.352 20.1172 513.336C13.1845 509.804 7.54812 504.167 4.01576 497.234C0 489.353 0 479.036 0 458.401V58.9504C0 38.3159 0 27.9986 4.01576 20.1172C7.54812 13.1845 13.1845 7.54812 20.1172 4.01576C27.9986 0 38.3159 0 58.9505 0ZM238.719 465.225V52.1266C238.719 38.5755 238.719 31.8 236.04 26.6427C233.782 22.2967 230.238 18.7531 225.892 16.4955C220.735 13.8165 213.96 13.8165 200.409 13.8165H193.602C190.964 13.8165 188.826 15.9548 188.826 18.5926C188.826 26.129 182.716 32.2385 175.18 32.2385H76.204C68.6676 32.2385 62.5581 26.129 62.5581 18.5926C62.5581 15.9548 60.4198 13.8165 57.782 13.8165H50.5915C37.0404 13.8165 30.2648 13.8165 25.1075 16.4955C20.7615 18.7531 17.2179 22.2967 14.9604 26.6427C12.2813 31.8 12.2813 38.5755 12.2813 52.1266V465.225C12.2813 478.776 12.2813 485.552 14.9604 490.709C17.2179 495.055 20.7615 498.599 25.1075 500.856C30.2648 503.535 37.0404 503.535 50.5915 503.535H200.409C213.96 503.535 220.735 503.535 225.892 500.856C230.238 498.599 233.782 495.055 236.04 490.709C238.719 485.552 238.719 478.776 238.719 465.225Z" fill="#050505"/>
@@ -69,7 +72,7 @@
             </div>
         
             <div class="phone-column">
-                <div class="phone">
+                <div class="phone centered">
                     <img src="/assets/img/onboarding-3.PNG" alt="Screenshot of Lovat's onboarding feature">
                     <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M58.9505 0H192.05C212.684 0 223.001 0 230.883 4.01576C237.815 7.54812 243.452 13.1845 246.984 20.1172C251 27.9986 251 38.3159 251 58.9505V458.401C251 479.036 251 489.353 246.984 497.234C243.452 504.167 237.815 509.804 230.883 513.336C223.001 517.352 212.684 517.352 192.05 517.352H58.9505C38.3159 517.352 27.9986 517.352 20.1172 513.336C13.1845 509.804 7.54812 504.167 4.01576 497.234C0 489.353 0 479.036 0 458.401V58.9504C0 38.3159 0 27.9986 4.01576 20.1172C7.54812 13.1845 13.1845 7.54812 20.1172 4.01576C27.9986 0 38.3159 0 58.9505 0ZM238.719 465.225V52.1266C238.719 38.5755 238.719 31.8 236.04 26.6427C233.782 22.2967 230.238 18.7531 225.892 16.4955C220.735 13.8165 213.96 13.8165 200.409 13.8165H193.602C190.964 13.8165 188.826 15.9548 188.826 18.5926C188.826 26.129 182.716 32.2385 175.18 32.2385H76.204C68.6676 32.2385 62.5581 26.129 62.5581 18.5926C62.5581 15.9548 60.4198 13.8165 57.782 13.8165H50.5915C37.0404 13.8165 30.2648 13.8165 25.1075 16.4955C20.7615 18.7531 17.2179 22.2967 14.9604 26.6427C12.2813 31.8 12.2813 38.5755 12.2813 52.1266V465.225C12.2813 478.776 12.2813 485.552 14.9604 490.709C17.2179 495.055 20.7615 498.599 25.1075 500.856C30.2648 503.535 37.0404 503.535 50.5915 503.535H200.409C213.96 503.535 220.735 503.535 225.892 500.856C230.238 498.599 233.782 495.055 236.04 490.709C238.719 485.552 238.719 478.776 238.719 465.225Z" fill="#050505"/>
@@ -94,6 +97,9 @@
             </div>
         </div>
     </div>
+</section>
+
+<section class="info">
     <div class="game-screen">
             <h1>Game Screen</h1>
             <h2>Starting</h2>
@@ -119,12 +125,12 @@
                     </defs>
                     </svg>
                 </div>
-                <p class="side-paragraph">Before the match starts, select one of the 4 starting positions for the robot and whether it is starting with a note in the upper left hand corner. When the match starts tap the play button in the top right corner.</p>
+                <p class="side-paragraph">Before the match starts, in the upper left corner, select one of the four starting positions for the robot and whether it is starting with a note. When the match starts, tap the play button in the top right corner.</p>
             </div>
     </div>
     <div class="general-features">
         <h2>General Features</h2>
-        <p>In the top left corner there is an undo button if you enter incorrect information. In the top right you can see the team number you are tracking, whether it is auto, teleop, or pre-match, and a button play button to tap when the match starts or a stop button after the match starts if it ends early for some reason.</p>
+        <p>In the top left corner there is an undo button if you enter incorrect information. In the top right you can see the team number you are tracking, whether it is auto, teleop, or pre-match, and a button play button to tap when the match starts, or a stop button after the match starts if it ends early for any reason.</p>
     </div>
     <div class="auto">
         <h2>Auto</h2>
@@ -149,7 +155,7 @@
                         </defs>
             </svg>
         </div>
-            <p class="side-paragraph">During the autonomous period if the robot you are scouting scored in the amp use the button on the top or in the speaker the middle button and if the robot drops the note the bottom button. If the robot leaves the auto starting zone you click anywhere in the purple.</p>
+            <p class="side-paragraph">During the autonomous period, if the robot you are scouting scored in the amp, use the button on the top. If it scored in the speaker, use the middle button, and if the robot drops the note, use the bottom button. If the robot leaves the auto starting zone, click anywhere in the purple.</p>
         <div class="phone sideways">
             <img src="/assets/img/auto-2.PNG" alt="Screenshot of Lovat's auto feature">
             <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -245,7 +251,7 @@
         </div>
     <div class="post-match">
         <h2>Post Match</h2>
-        <div>
+        <div class="post-row">
             <div class="phone">
                 <img src="/assets/img/post-match.PNG" alt="Screenshot of Lovat's post match feature">
                 <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,15 +273,17 @@
                         </defs>
                 </svg>
             </div>
-            <p class="vertical-paragraph">After the match you will answer some questions about the robot in the match. For example, whether the robot was defensive, offensive, or immobile or if they scored the high note, failed, or didn’t attempt.</p>
+            <p >After the match you will answer some questions about the robot in the match. For example, whether the robot was defensive, offensive, or immobile or if they scored the high note, failed, or didn’t attempt.</p>
         </div>
     </div>
+</section>
+
+<section class="uploading">
     <div class="uploading data">
-        <h1>Uploading Data</h1>
-        <h2>Post Match</h2>
-        <div class="phone-row">
+        <h2 class="uploading-align">Uploading Data</h2>
+        <div class="phone-row uploading-content">
             <div class="phone-column">
-                <div class="phone">
+                <div class="phone centered">
                     <img src="/assets/img/uploading-1.PNG" alt="Screenshot of Lovat's post match feature">
                     <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M58.9505 0H192.05C212.684 0 223.001 0 230.883 4.01576C237.815 7.54812 243.452 13.1845 246.984 20.1172C251 27.9986 251 38.3159 251 58.9505V458.401C251 479.036 251 489.353 246.984 497.234C243.452 504.167 237.815 509.804 230.883 513.336C223.001 517.352 212.684 517.352 192.05 517.352H58.9505C38.3159 517.352 27.9986 517.352 20.1172 513.336C13.1845 509.804 7.54812 504.167 4.01576 497.234C0 489.353 0 479.036 0 458.401V58.9504C0 38.3159 0 27.9986 4.01576 20.1172C7.54812 13.1845 13.1845 7.54812 20.1172 4.01576C27.9986 0 38.3159 0 58.9505 0ZM238.719 465.225V52.1266C238.719 38.5755 238.719 31.8 236.04 26.6427C233.782 22.2967 230.238 18.7531 225.892 16.4955C220.735 13.8165 213.96 13.8165 200.409 13.8165H193.602C190.964 13.8165 188.826 15.9548 188.826 18.5926C188.826 26.129 182.716 32.2385 175.18 32.2385H76.204C68.6676 32.2385 62.5581 26.129 62.5581 18.5926C62.5581 15.9548 60.4198 13.8165 57.782 13.8165H50.5915C37.0404 13.8165 30.2648 13.8165 25.1075 16.4955C20.7615 18.7531 17.2179 22.2967 14.9604 26.6427C12.2813 31.8 12.2813 38.5755 12.2813 52.1266V465.225C12.2813 478.776 12.2813 485.552 14.9604 490.709C17.2179 495.055 20.7615 498.599 25.1075 500.856C30.2648 503.535 37.0404 503.535 50.5915 503.535H200.409C213.96 503.535 220.735 503.535 225.892 500.856C230.238 498.599 233.782 495.055 236.04 490.709C238.719 485.552 238.719 478.776 238.719 465.225Z" fill="#050505"/>
@@ -296,10 +304,10 @@
                                 </defs>
                     </svg>
                 </div>
-                <p>If the notification at the QR code pops up, the data has been successfully updated. You can tap done and then continue on scouting the next match.</p>
+                <p class="uploading-text">If the notification at the QR code pops up, the data has been successfully updated. You can tap done and then continue on scouting the next match.</p>
             </div>
             <div class="phone-column">
-                <div class="phone">
+                <div class="phone centered">
                     <img src="/assets/img/uploading-2.PNG" alt="Screenshot of Lovat's post match feature">
                     <svg width="251" height="518" viewBox="0 0 251 518" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M58.9505 0H192.05C212.684 0 223.001 0 230.883 4.01576C237.815 7.54812 243.452 13.1845 246.984 20.1172C251 27.9986 251 38.3159 251 58.9505V458.401C251 479.036 251 489.353 246.984 497.234C243.452 504.167 237.815 509.804 230.883 513.336C223.001 517.352 212.684 517.352 192.05 517.352H58.9505C38.3159 517.352 27.9986 517.352 20.1172 513.336C13.1845 509.804 7.54812 504.167 4.01576 497.234C0 489.353 0 479.036 0 458.401V58.9504C0 38.3159 0 27.9986 4.01576 20.1172C7.54812 13.1845 13.1845 7.54812 20.1172 4.01576C27.9986 0 38.3159 0 58.9505 0ZM238.719 465.225V52.1266C238.719 38.5755 238.719 31.8 236.04 26.6427C233.782 22.2967 230.238 18.7531 225.892 16.4955C220.735 13.8165 213.96 13.8165 200.409 13.8165H193.602C190.964 13.8165 188.826 15.9548 188.826 18.5926C188.826 26.129 182.716 32.2385 175.18 32.2385H76.204C68.6676 32.2385 62.5581 26.129 62.5581 18.5926C62.5581 15.9548 60.4198 13.8165 57.782 13.8165H50.5915C37.0404 13.8165 30.2648 13.8165 25.1075 16.4955C20.7615 18.7531 17.2179 22.2967 14.9604 26.6427C12.2813 31.8 12.2813 38.5755 12.2813 52.1266V465.225C12.2813 478.776 12.2813 485.552 14.9604 490.709C17.2179 495.055 20.7615 498.599 25.1075 500.856C30.2648 503.535 37.0404 503.535 50.5915 503.535H200.409C213.96 503.535 220.735 503.535 225.892 500.856C230.238 498.599 233.782 495.055 236.04 490.709C238.719 485.552 238.719 478.776 238.719 465.225Z" fill="#050505"/>
@@ -320,7 +328,7 @@
                                 </defs>
                     </svg>
                 </div>
-                <p>If the notification below the QR code pops up, the data has not been successfully updated. Ask your scouting lead to scan the QR code. If they are not available retap done.</p>
+                <p class="uploading-text">If the notification below the QR code pops up, the data has not been successfully updated. Ask your scouting lead to scan the QR code. If they are not available retap done.</p>
             </div>
         </div>
     </div>
@@ -338,13 +346,18 @@ div {
         max-width: 1000px;
         margin: 0 auto;
     }
+.header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
 h1 {
-        font-size: 60px;
+        font-size: 45px;
         font-style: normal;
         font-weight: 500;
-        line-height: 60px; /* 100% */
-        margin-top: 50px;
-        margin-bottom: 50px;
+        line-height: 45px; /* 100% */
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 h2 {
         font-size: 32px;
@@ -357,12 +370,24 @@ p {
         margin-bottom: 24px;
         color: var(--body);
 }
-.info {
+.icon {
+        height: 65px;
+        width: 65px;
+        margin-right: 15px;
+        border: 1px solid rgba(129, 83, 182, 0.505);
+        border-radius: 10px;
+        background: linear-gradient(180deg, rgba(59, 53, 74, 0.50) 0%, #292929 100%);
+        box-shadow: 0px 0px 100px 0px rgba(181, 154, 255, 0.40);
+}
+.onboarding {
         background-color: var(--secondary-container);
+}
+.info {
         margin: 30px auto;
         padding: 0 20px;
+        
     }
-img {
+.phone img {
         object-fit: fill;
         width: 226px;
         border-radius: 5px;
@@ -379,6 +404,7 @@ img {
 .phone {
         position: relative;
         height: 518px;
+        width: 251px;
 }
 .phone.sideways > svg{
         transform: translate(-50%, -50%) rotate(90deg);
@@ -405,21 +431,44 @@ img {
         margin: 0 auto;
 }
 .info > * {
-        max-width: 1000px;
+        max-width: 525px;
         margin: 0 auto;
 }
 .phone.sideways {
         height: 251px;
         margin-bottom: 20px;
+        width: 518px;
 }
 .side-paragraph {
         width: 518px;
-        margin: 0 auto 50px auto;
-        text-align: center;
+        margin-bottom: 50px;
+        text-align: left;
 }
-.vertical-paragraph {
-        margin: 20px auto 50px auto;
-        text-align: center;
+/* .vertical-paragraph {
+        margin-bottom: 50px;
+        text-align: left;
         width: 518px;
+} */
+.centered {
+        margin: 0 auto 20px auto;
+}
+.post-row {
+        display: flex;
+        flex-direction: row;
+}
+.uploading-content {
+        max-width: 600px;
+        margin: 0 auto;
+}
+.uploading-align {
+        max-width: 550px;
+        margin: 50px auto;
+}
+.uploading-text {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 255px;
 }
 </style>
