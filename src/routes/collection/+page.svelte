@@ -2,6 +2,9 @@
     <title>Lovat Collection | Lovat</title>
 </svelte:head>
 
+<script>
+    import Youtube from "https://youtu.be/P_GO878wM_Y?si=eCdcMsbuW-1mrryu";
+</script>
 
 <section class="front-page">
     <div class="content-wrapper">
@@ -11,6 +14,7 @@
         </div>
         <p>Watch our training video:</p>
         <div class="video-description">
+            <src id="https://youtu.be/P_GO878wM_Y?si=eCdcMsbuW-1mrryu" />
             <br>
             <p>This video covers every single feature in Lovat Collection including onboarding, settings, all the game screens, and more. It is crucial that every single scouter watches this video in its entirety. All the resources below are covered in the video, and are just there to serve as reminders, not as alternate training materials.</p>
         </div>
@@ -43,7 +47,7 @@
                         </defs>
                     </svg>
                 </div>
-                <p>Get your team code from your scouting lead. If they have not already onboarded your team on Lovat Dashboard, instruct them to do so on [LINK TO DASHBOARD APP PAGE].</p>
+                <p>Get your team code from your scouting lead. If they have not already onboarded your team on Lovat Dashboard, instruct them to do so on <a href="">Lovat Dashboard</a>.</p>
             </div>
 
             <div class="phone-column">
@@ -369,6 +373,9 @@ p {
         margin-top: 20px;
         margin-bottom: 24px;
         color: var(--body);
+}
+a {
+        color: var(--victory-purple)
 }
 .icon {
         height: 65px;
