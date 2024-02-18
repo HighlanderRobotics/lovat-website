@@ -19,7 +19,7 @@
             <h1>Centralize your team’s strategy in minutes.</h1>
             <p>Easily view real-time analytics built on human-collected data.</p>
             <div class="button-items">
-                <Button variant="primary" element="a" href="/waitlist">Join our email list</Button>
+                <Button variant="primary" element="a" href="/waitlist">Join our mailing list</Button>
             </div>
         </div>
     </div>
