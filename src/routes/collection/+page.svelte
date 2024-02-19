@@ -18,7 +18,7 @@
 <section class="video">
     <div class="video-content">
         <h1>Training video</h1>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aebdSmZ6o_Q?si=vQmOmqief3Y2QvGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/aebdSmZ6o_Q?si=vQmOmqief3Y2QvGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <br>
         <p>This video covers every single feature in Lovat Collection including onboarding, settings, all the game screens, and more. It is crucial that every single scouter watches this video in its entirety. All the resources below are covered in the video, and are just there to serve as reminders, not as alternate training materials.</p>
     </div>
@@ -118,6 +118,8 @@
 
 iframe {
     border-radius: 14px;
+    aspect-ratio: 560 / 315;
+    width: 100%;
 }
 
 .video {
@@ -141,6 +143,7 @@ div {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        text-align: center;
 }
 h1 {
         font-size: 45px;
@@ -190,14 +193,15 @@ a {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        gap: 20px;
+        gap: 28px;
 }
 
 .phone-row > * {
         max-width: 280px;
+        flex: 1;
 }
 .phone-column{
-        width: 518px;
+        max-width: 518px;
 }
 .onboarding-content, .game-screen {
         max-width: 1000px;
@@ -208,7 +212,7 @@ a {
         margin: 0 auto;
 }
 .side-paragraph {
-        width: 518px;
+        max-width: 518px;
         margin-bottom: 50px;
         text-align: left;
 }
@@ -240,5 +244,25 @@ a {
 
 .post-match p {
     margin: 0;
+}
+
+@media only screen and (max-width: 650px) {
+    .phone-row {
+        flex-direction: column;
+        max-width: 251px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .post-row {
+        flex-direction: column;
+    }
+
+    .left-phone {
+        flex: none;
+        width: 100%;
+    }
 }
 </style>
