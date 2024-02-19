@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Phone from '$lib/components/Phone.svelte';
+	import { Icon } from 'magnolia-ui-svelte';
 </script>
 
 <svelte:head>
@@ -49,8 +50,8 @@
 					alt="Screenshot displaying the team code portion of Lovat Collection's onboarding flow"
 				/>
 				<p>
-					Get your team code from your scouting lead. If they have not already onboarded your team
-					on Lovat Dashboard, instruct them to do so on Lovat Dashboard.
+					Get your team code from your scouting lead. If they have not already registered your team
+					on Lovat Dashboard, instruct them to do so.
 				</p>
 			</div>
 
@@ -59,7 +60,7 @@
 					src="/assets/img/onboarding-2.PNG"
 					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
 				/>
-				<p>Select your name if it appears. If your name isn’t there, follow the next step.</p>
+				<p>Select your name if it appears. If it isn’t there, follow the next step.</p>
 			</div>
 
 			<div class="phone-column">
@@ -67,7 +68,7 @@
 					src="/assets/img/onboarding-3.PNG"
 					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
 				/>
-				<p>If you are not already in the list, type in your name and select “Create new scouter”</p>
+				<p>If you are not already in the list, type in your name and tap “Create new scouter.”</p>
 			</div>
 		</div>
 	</div>
@@ -84,8 +85,8 @@
 				orientation="landscape-left"
 			/>
 			<p class="side-paragraph">
-				Before the match starts, in the upper left corner, select one of the four starting positions
-				for the robot and whether it is starting with a note. When the match starts, tap the play
+				Before the match starts, select one of the four starting positions
+				for the robot, and indicate whether it starts with a note in the upper left. Immediately as the match starts, tap the <Icon icon="play_arrow" />
 				button in the top right corner.
 			</p>
 		</div>
@@ -93,10 +94,9 @@
 	<div class="general-features">
 		<h2>General Features</h2>
 		<p>
-			In the top left corner there is an undo button if you enter incorrect information. In the top
+			If you make a mistake, you can use the <Icon icon="undo" /> button in the upper left corner. In the top
 			right you can see the team number you are tracking, whether it is auto, teleop, or pre-match,
-			and a button play button to tap when the match starts, or a stop button after the match starts
-			if it ends early for any reason.
+			and a button play button to tap when the match starts, and a stop button for when the match ends.
 		</p>
 	</div>
 	<div class="auto">
@@ -107,10 +107,10 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			During the autonomous period, if the robot you are scouting scored in the amp, use the button
-			on the top. If it scored in the speaker, use the middle button, and if the robot drops the
-			note, use the bottom button. If the robot leaves the auto starting zone, click anywhere in the
-			purple.
+			During the autonomous period, if the robot you are scouting scores in the amp, use the button
+			at the edge. If it scores in the speaker, use the <Icon icon="speaker" /> button in the middle, and if the robot drops the
+			note, use the <Icon icon="output_circle" /> button. If the robot leaves the auto starting zone, tap anywhere in the
+			purple box.
 		</p>
 		<Phone
 			src="/assets/img/auto-2.PNG"
@@ -118,8 +118,7 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			When the robot leaves the auto starting area and doesn’t have a note there will be an option
-			to pick from one of these 8 yellow pick up locations.
+			If the robot leaves the auto starting area and doesn’t have a note, there are 8 yellow <Icon icon="upload" /> buttons corresponding to the action of collecting a note from one of the 8 locations.
 		</p>
 	</div>
 	<div class="teleop">
@@ -130,10 +129,8 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			During the teleop phase when the robot does not have a note you will have the option to pick
-			up a note anywhere in the yellow on the left or if the robot is actively defending click the
-			button on the bottom or if anyone in the alliance on which the robot you are scouting is
-			activates the amp click the button above the defense button.
+			During the teleop phase, if the robot does not have a note, you will have one larger yellow <Icon icon="upload" /> button to indicate the robot collecting a note from anywhere. If the robot is actively defending, tap the
+            <Icon icon="shield" /> button, and if the robot's alliance amplifies, tap the <Icon icon="campaign" /> button.
 		</p>
 		<Phone
 			src="/assets/img/teleop-2.PNG"
@@ -141,13 +138,9 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			Just like in auto if the robot does have a note you can score in either the amp on the top or
-			the speaker in the middle. If the robot scores in the trap the triangle in the middle or if
-			the robot drops its note you can tap the bottom left button. On the right you will still have
-			the option to say the robot is defending in the middle of the right hand column or if someone
-			in the robot that you are scouting’s alliance activates the amp on the top, but you will also
-			have the option to say that the robot fed the note to another robot in its alliance at the
-			bottom.
+			Just like in auto, if the robot has a note, you can score in either the amp at the edge or
+			the speaker in the middle. If the robot scores in the trap, tap the <Icon icon="crisis_alert" /> in the middle. If
+			the robot drops its note, tap the <Icon icon="output_circle" /> button. On the side, you still have amplification and defense buttons, but you can also tap the <Icon icon="conveyor_belt" /> when the robot feeds its note to another robot in its alliance.
 		</p>
 		<Phone
 			src="/assets/img/amplified.jpeg"
@@ -155,9 +148,7 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			When you have activated the amplify button, it will light up making it obvious to you that it
-			is still on and whenever the amp is no longer activated you can turn it off by tapping the
-			same button.
+			The amplify button glows while it is activated. If the alliance is no longer amplified but the button is still glowing, tap it again to deactivate it.
 		</p>
 	</div>
 	<div class="post-match">
@@ -190,8 +181,8 @@
 					alt="Screenshot of Lovat Collection's data upload page indicating that the data has been successfully uploaded."
 				/>
 				<p class="uploading-text">
-					If the notification at the QR code pops up, the data has been successfully updated. You
-					can tap done and then continue on scouting the next match.
+					An indicator will appear below the QR code if your data uploads successfully. If it does,
+					tap "done" and continue on to scout the next match.
 				</p>
 			</div>
 			<div class="phone-column">
@@ -200,8 +191,7 @@
 					alt="Screenshot of Lovat Collection's data upload page indicating that the data upload has failed."
 				/>
 				<p class="uploading-text">
-					If the notification below the QR code pops up, the data has not been successfully updated.
-					Ask your scouting lead to scan the QR code. If they are not available retap done.
+					If the indicator says "Upload failed," ask your scouting lead to scan the QR code, or if they are not available, tap done and use the history page <Icon icon="history" /> to upload it later.
 				</p>
 			</div>
 		</div>
@@ -335,8 +325,6 @@
 	}
 	.uploading-text {
 		text-align: center;
-		display: flex;
-		justify-content: space-between;
 		margin: 0 auto;
 		max-width: 255px;
 	}
