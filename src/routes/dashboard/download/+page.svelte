@@ -16,8 +16,10 @@
     <div class="content">
         <div class="info">
             <h1>Install Lovat&nbsp;Dashboard</h1>
+            <p>(All of this copy needs to be updated)</p>
+
             <p>
-                The full Lovat system, including Lovat Dashboard and Lovat Collection  with all features will be available starting with the 2024 season.
+                The full Lovat system, including Lovat Dashboard and Lovat Collection with all features will be available starting with the 2024 season.
             </p>
 
             <p>
