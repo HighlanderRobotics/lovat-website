@@ -50,7 +50,7 @@
 				/>
 				<p>
 					Get your team code from your scouting lead. If they have not already onboarded your team
-					on Lovat Dashboard, instruct them to do so on <a href="">Lovat Dashboard</a>.
+					on Lovat Dashboard, instruct them to do so on Lovat Dashboard.
 				</p>
 			</div>
 
