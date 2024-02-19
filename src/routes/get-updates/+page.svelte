@@ -6,13 +6,13 @@
 </script>
 
 <svelte:head>
-    <title>Join our email list | Lovat</title>
+    <title>Get updates | Lovat</title>
 </svelte:head>
 
 <section class="info">
     <div class="content">
         <h1>Be the first to hear</h1>
-        <p>Lovat is currently released for the 2024 season. Join the waitlist to participate in opportunities to influence Lovat's features, and receive updates about the system this year and beyond!</p>
+        <p>Lovat is currently released for the 2024 season. Join our mailing list to participate in opportunities to influence Lovat's features and receive updates about the system this year and beyond!</p>
     </div>
 </section>
 <section class="form">
