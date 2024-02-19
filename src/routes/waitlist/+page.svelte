@@ -6,13 +6,13 @@
 </script>
 
 <svelte:head>
-    <title>Join the Waitlist | Lovat</title>
+    <title>Join our email list | Lovat</title>
 </svelte:head>
 
 <section class="info">
     <div class="content">
         <h1>Be the first to hear</h1>
-        <p>The full Lovat system, including Lovat Dashboard and Lovat Collection  with all features will release for the 2024 Crescendo season. Join the waitlist to stay updated on the development and opportunities to try out the system.</p>
+        <p>Lovat is currently released for the 2024 season. Join the waitlist to participate in opportunities to influence Lovat's features, and receive updates about the system this year and beyond!</p>
     </div>
 </section>
 <section class="form">

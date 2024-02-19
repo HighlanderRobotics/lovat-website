@@ -7,7 +7,7 @@
 <section>
     <h1>Scale up your strategy.</h1>
     <div>
-        <Button element="a" href="/waitlist">Join the waitlist</Button>
+        <Button element="a" href="/waitlist">Get updates</Button>
     </div>
 </section>
 

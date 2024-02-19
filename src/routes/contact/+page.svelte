@@ -12,7 +12,7 @@
 <section class="info">
     <div class="content">
         <h1>Get in touch</h1>
-        <p>If you’re interested in using the current system at an off-season competition, find bugs, or have feature requests, shoot us a message and we’ll get back to you as soon as we can.</p>
+        <p>If you have questions about Lovat, find bugs, or have feature requests, shoot us a message and we’ll get back to you as soon as we can.</p>
     </div>
 </section>
 <section class="form">
