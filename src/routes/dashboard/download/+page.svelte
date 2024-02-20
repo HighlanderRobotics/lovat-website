@@ -16,7 +16,7 @@
     <div class="content">
         <div class="info">
             <h1>Install Lovat&nbsp;Dashboard</h1>
-            <p>If your team is registered on Lovat, you'll be able to sign in, join your team using its code, and start viewing data.</p>
+            <p>If your team is registered on Lovat, you'll be able to sign in, join your team using its code, and start viewing data. Watch <a href="https://www.youtube.com/watch?v=KfoBazx2k-s">the walkthrough</a> to learn more about the steps involved and how to view data.</p>
             
             <p>If you're a scouting lead, you can register your team to scout, share data, and collaborate on strategy in a few simple steps. Watch <a href="https://www.youtube.com/watch?v=F4bkGeY4V44">the tutorial</a> to learn how.</p>
         </div>
