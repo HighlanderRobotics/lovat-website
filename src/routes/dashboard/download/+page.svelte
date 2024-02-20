@@ -18,7 +18,7 @@
             <h1>Install Lovat&nbsp;Dashboard</h1>
             <p>If your team is registered on Lovat, you'll be able to sign in, join your team using its code, and start viewing data. Watch <a href="#">the walkthrough</a> to learn more about the steps involved and how to view data.</p>
             
-            <p>If you're a scouting lead, you can register your team to scout, share data, and collaborate on strategy in a few steps. Watch <a href="#">the tutorial</a> to learn how.</p>
+            <p>If you're a scouting lead, you can register your team to scout, share data, and collaborate on strategy in a few simple steps. Watch <a href="#">the tutorial</a> to learn how.</p>
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}
