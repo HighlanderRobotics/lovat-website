@@ -80,33 +80,6 @@
         color: var(--body);
     }
 
-    textarea {
-        appearance: none;
-        resize: vertical;
-        background-color: var(--secondary-container);
-        border-radius: 7px;
-        border: 2px solid var(--light-gray);
-        padding: 10px 14px;
-        
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        outline: none;
-        caret-color: var(--victory-purple);
-        margin-bottom: 20px;
-        height: 120px;
-        transition: 100ms;
-    }
-
-    textarea::placeholder {
-        color: var(--placeholder);
-    }
-
-    textarea:focus {
-        border: 2px solid var(--light-gray-hover);
-    }
-
     .submit {
         margin-left: auto;
         margin-top: 20px;

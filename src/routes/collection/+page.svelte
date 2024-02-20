@@ -256,9 +256,6 @@
 		margin-bottom: 24px;
 		color: var(--body);
 	}
-	a {
-		color: var(--victory-purple);
-	}
 	.icon {
 		height: 65px;
 		width: 65px;
@@ -271,14 +268,6 @@
 
 	.info {
 		background-color: var(--secondary-container);
-	}
-	.phone img {
-		object-fit: fill;
-		width: 226px;
-		border-radius: 5px;
-		/* border: 1px solid rgba(214, 198, 255, 0.35); */
-		background: linear-gradient(180deg, rgba(59, 53, 74, 0.5) 0%, #292929 100%);
-		box-shadow: 0px 0px 100px 0px rgba(181, 154, 255, 0.4);
 	}
 	.phone-row {
 		text-align: center;
