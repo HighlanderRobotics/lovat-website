@@ -3,13 +3,13 @@
 </script>
 
 <svelte:head>
-    <title>Join the Waitlist | Lovat</title>
+    <title>Get updates | Lovat</title>
 </svelte:head>
 
 <div class="container">
     <div class="content">
-        <h1>You’re in!</h1>
-        <p>Thanks for your interest. We will keep you updated with opportunities to use and test out Lovat.</p>
+        <h1>You’re on the list.</h1>
+        <p>Thanks for your interest! We will keep you updated.</p>
         <Button element="a" href="/">Back home</Button>
     </div>
 </div>

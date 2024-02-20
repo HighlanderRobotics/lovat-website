@@ -6,13 +6,13 @@
 </script>
 
 <svelte:head>
-    <title>Join the Waitlist | Lovat</title>
+    <title>Get updates | Lovat</title>
 </svelte:head>
 
 <section class="info">
     <div class="content">
         <h1>Be the first to hear</h1>
-        <p>The full Lovat system, including Lovat Dashboard and Lovat Collection  with all features will release for the 2024 Crescendo season. Join the waitlist to stay updated on the development and opportunities to try out the system.</p>
+        <p>Lovat is currently released for the 2024 season. Join our mailing list to participate in opportunities to influence Lovat's features and receive updates about the system this year and beyond!</p>
     </div>
 </section>
 <section class="form">
@@ -78,33 +78,6 @@
 
     .gray {
         color: var(--body);
-    }
-
-    textarea {
-        appearance: none;
-        resize: vertical;
-        background-color: var(--secondary-container);
-        border-radius: 7px;
-        border: 2px solid var(--light-gray);
-        padding: 10px 14px;
-        
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        outline: none;
-        caret-color: var(--victory-purple);
-        margin-bottom: 20px;
-        height: 120px;
-        transition: 100ms;
-    }
-
-    textarea::placeholder {
-        color: var(--placeholder);
-    }
-
-    textarea:focus {
-        border: 2px solid var(--light-gray-hover);
     }
 
     .submit {

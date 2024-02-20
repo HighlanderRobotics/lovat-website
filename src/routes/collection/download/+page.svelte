@@ -6,8 +6,8 @@
 	import { Button } from 'magnolia-ui-svelte';
     import type { PageData } from './$types';
 
-    const appStoreLink = 'https://apps.apple.com/app/lovat-dashboard/id6467466592';
-    const apkLink = 'https://github.com/HighlanderRobotics/scouting_dashboard_app/releases/latest/download/app-release.apk';
+    const appStoreLink = 'https://apps.apple.com/us/app/lovat-collection/id6467335014';
+    const apkLink = 'https://github.com/HighlanderRobotics/lovat-collection/releases/latest/download/app-release.apk';
 	
 	export let data: PageData;
 </script>
@@ -15,19 +15,12 @@
 <div class="main-page">
     <div class="content">
         <div class="info">
-            <h1>Install Lovat&nbsp;Dashboard</h1>
+            <h1>Install Lovat&nbsp;Collection</h1>
             <p>
-                The full Lovat system, including Lovat Dashboard and Lovat Collection  with all features will be available starting with the 2024 season.
+                Scouters should download Lovat&nbsp;Collection, enter their team code, add their names, and watch the <a href="https://youtu.be/aebdSmZ6o_Q">training video</a>.
             </p>
 
-            <p>
-                To take an early look, Lovat Dashboard, along with all of 8033’s scouting data for Chezy Champs 2023 will be available to everyone during the event.
-                If you are interested in using the full system, please use this opportunity to download Lovat Dashboard and preview everything it has to offer.
-            </p>
-
-            <p>
-                When you first launch the app, you’ll be prompted for your team number. If you’re not currently associated with an FRC team, enter 9999.
-            </p>
+            <p>If your team isn't on Lovat yet, have a scouting lead download <a href="/dashboard/download">Lovat&nbsp;Dashboard</a> and follow the steps to register.</p>
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}

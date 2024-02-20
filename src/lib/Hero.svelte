@@ -19,7 +19,11 @@
             <h1>Centralize your team’s strategy in minutes.</h1>
             <p>Easily view real-time analytics built on human-collected data.</p>
             <div class="button-items">
-                <Button variant="primary" element="a" href="/waitlist">Join the waitlist</Button>
+                <Button variant="primary" element="a" href="/dashboard/download">Get Lovat Dashboard</Button>
+                <a href="/get-updates">
+                    <span>Stay updated</span>
+                    <Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
+                </a>
             </div>
         </div>
     </div>
@@ -73,5 +77,36 @@
         right: 0;
         z-index: 5;
         width: max(min(1000px, 80vw), 600px);
+    }
+
+    .button-items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+    
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--victory-purple);
+
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    a span {
+        color: var(--victory-purple);
+    }
+
+    a:visited {
+        color: var(--victory-purple);
+    }
+
+    a:hover span {
+        text-decoration: underline;
     }
 </style>
