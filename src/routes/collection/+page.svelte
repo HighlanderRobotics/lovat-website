@@ -17,6 +17,10 @@
 			/>
 			<h1>Lovat Collection</h1>
 		</div>
+        <a href="/collection/download" class="forward-link">
+            <span>Download</span>
+            <Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
+        </a>
 	</div>
 </section>
 
@@ -325,6 +329,37 @@
 	.post-match p {
 		margin: 0;
 	}
+
+    .forward-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--victory-purple);
+
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .forward-link span {
+        color: var(--victory-purple);
+    }
+
+    .forward-link:visited {
+        color: var(--victory-purple);
+    }
+
+    .forward-link:hover span {
+        text-decoration: underline;
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
 
 	@media only screen and (max-width: 650px) {
 		.phone-row {
