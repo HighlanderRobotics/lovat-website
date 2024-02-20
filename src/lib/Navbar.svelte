@@ -21,7 +21,7 @@
             <Button variant="text-only-secondary" element="a" href="/collection">Collection</Button>
             <Button variant="text-only-secondary" element="a" href="/about">About</Button>
             <Button variant="text-only-secondary" element="a" href="/contact">Contact</Button>
-            <Button variant="secondary" element="a" href="/get-updates">Get updates</Button>
+            <Button variant="secondary" element="a" href="/dashboard/download">Get Lovat Dashboard</Button>
         </div>
     </DensityProvider>
 </nav>
