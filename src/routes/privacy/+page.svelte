@@ -39,7 +39,7 @@
         </li>
         <li>
             <p>
-                <strong>Service</strong> refers to the Lovat system, including Lovat Collection and Lovat Dashboard, the software programs provided by the Team.
+                <strong>Service</strong> refers to the Lovat system, including Lovat&nbsp;Collection and Lovat&nbsp;Dashboard, the software programs provided by the Team.
             </p>
         </li>
         <li>
@@ -222,7 +222,7 @@
         Service.
     </p>
     <p>
-        You may update, amend, or delete Your information at any time using the settings page of Lovat Dashboard. You may also contact Us to request access to, correct, or delete any personal
+        You may update, amend, or delete Your information at any time using the settings page of Lovat&nbsp;Dashboard. You may also contact Us to request access to, correct, or delete any personal
         information that You have provided to Us.
     </p>
     <p>

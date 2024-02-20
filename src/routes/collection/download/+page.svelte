@@ -17,10 +17,10 @@
         <div class="info">
             <h1>Install Lovat&nbsp;Collection</h1>
             <p>
-                Scouters should download Lovat Collection, enter their team code, add their names, and watch the <a href="https://youtu.be/aebdSmZ6o_Q">training video</a>.
+                Scouters should download Lovat&nbsp;Collection, enter their team code, add their names, and watch the <a href="https://youtu.be/aebdSmZ6o_Q">training video</a>.
             </p>
 
-            <p>If your team isn't on Lovat yet, have a scouting lead download <a href="/dashboard/download">Lovat Dashboard</a> and follow the steps to register.</p>
+            <p>If your team isn't on Lovat yet, have a scouting lead download <a href="/dashboard/download">Lovat&nbsp;Dashboard</a> and follow the steps to register.</p>
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}

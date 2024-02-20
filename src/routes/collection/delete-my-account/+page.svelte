@@ -12,7 +12,7 @@
 <section class="info">
     <div class="content">
         <h1>Delete my account</h1>
-        <p>Submit your details here to request to delete your account for Lovat Collection. This will delete your account and all associated personal data from our records. Unless otherwise requested, we will keep the data you have submitted during matches. This can take up to 72 hours, and we will send you an email update upon completion.</p>
+        <p>Submit your details here to request to delete your account for Lovat&nbsp;Collection. This will delete your account and all associated personal data from our records. Unless otherwise requested, we will keep the data you have submitted during matches. This can take up to 72 hours, and we will send you an email update upon completion.</p>
     </div>
 </section>
 <section class="form">

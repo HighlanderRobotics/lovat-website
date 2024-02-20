@@ -32,7 +32,7 @@
 		/>
 		<br />
 		<p>
-			This video covers every single feature in Lovat Collection including onboarding, settings, all
+			This video covers every single feature in Lovat&nbsp;Collection including onboarding, settings, all
 			the game screens, and more. It is crucial that every single scouter watches this video in its
 			entirety. All the resources below are covered in the video, and are just there to serve as
 			reminders, not as alternate training materials.
@@ -51,7 +51,7 @@
 				/>
 				<p>
 					Get your team code from your scouting lead. If they have not already registered your team
-					on Lovat Dashboard, instruct them to do so.
+					on Lovat&nbsp;Dashboard, instruct them to do so.
 				</p>
 			</div>
 

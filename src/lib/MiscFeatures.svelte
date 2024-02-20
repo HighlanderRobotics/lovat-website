@@ -8,7 +8,7 @@
         <div class="feature">
             <Icon icon="devices" />
             <h2>Cross-platform</h2>
-            <p>The Lovat apps support iOS and Android, with more on the way. Scouters can use their existing devices without the need to share. Lovat Dashboard users can sign into existing accounts across platforms as well.</p>
+            <p>The Lovat apps support iOS and Android, with more on the way. Scouters can use their existing devices without the need to share. Lovat&nbsp;Dashboard users can sign into existing accounts across platforms as well.</p>
         </div>
         <div class="feature">
             <Icon icon="cloud_off" />
@@ -18,7 +18,7 @@
         <div class="feature">
             <Icon icon="schedule" />
             <h2>Quick setup</h2>
-            <p>Register your team for Lovat Dashboard in a matter of minutes, without having to contact a member of our team. Or join your existing team on Lovat Dashboard and Lovat Collection in one step.</p>
+            <p>Register your team for Lovat&nbsp;Dashboard in a matter of minutes, without having to contact a member of our team. Or join your existing team on Lovat&nbsp;Dashboard and Lovat Collection in one step.</p>
         </div>
     </div>
 </section>
