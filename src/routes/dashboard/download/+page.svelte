@@ -16,20 +16,9 @@
     <div class="content">
         <div class="info">
             <h1>Install Lovat&nbsp;Dashboard</h1>
-            <p>(All of this copy needs to be updated)</p>
-
-            <p>
-                The full Lovat system, including Lovat Dashboard and Lovat Collection with all features will be available starting with the 2024 season.
-            </p>
-
-            <p>
-                To take an early look, Lovat Dashboard, along with all of 8033’s scouting data for Chezy Champs 2023 will be available to everyone during the event.
-                If you are interested in using the full system, please use this opportunity to download Lovat Dashboard and preview everything it has to offer.
-            </p>
-
-            <p>
-                When you first launch the app, you’ll be prompted for your team number. If you’re not currently associated with an FRC team, enter 9999.
-            </p>
+            <p>If your team is registered on Lovat, you'll be able to sign in, join your team using its code, and start viewing data. Watch <a href="#">the walkthrough</a> to learn more about the steps involved and how to view data.</p>
+            
+            <p>If you're a scouting lead, you can register your team to scout, share data, and collaborate on strategy in a few steps. Watch <a href="#">the tutorial</a> to learn how.</p>
         </div>
         <div class="download">
             {#if data.deviceType === 'ios'}
