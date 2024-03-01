@@ -18,6 +18,7 @@
     </button>
     <DensityProvider density="compact">
         <div class="actions" class:expanded>
+            <Button variant="text-only-secondary" element="a" href="/scouting-lead">Scouting Lead</Button>
             <Button variant="text-only-secondary" element="a" href="/dashboard">Dashboard</Button>
             <Button variant="text-only-secondary" element="a" href="/collection">Collection</Button>
             <Button variant="text-only-secondary" element="a" href="/about">About</Button>
