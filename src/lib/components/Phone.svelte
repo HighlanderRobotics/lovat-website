@@ -67,6 +67,10 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+        border: 1px solid rgba(129, 83, 182, 0.505);
+		border-radius: 10px;
+		background: linear-gradient(180deg, rgba(59, 53, 74, 0.5) 0%, #292929 100%);
+		box-shadow: 0px 0px 80px 0px rgba(181, 154, 255, 0.4);
     }
 
     .phone__bezels {
