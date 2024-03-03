@@ -68,7 +68,7 @@
 				<p>If your team has already been registered by your scouting lead, ask them for your team code and enter it here. If your team isn’t registered with Lovat yet, tap “Just looking around”.</p>
 			</div>
 
-            <div class="phone-column-2">
+            <div class="phone-column">
 				<Phone
 					src="/assets/img/data-onboarding.png"
 					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
@@ -76,7 +76,7 @@
 				<p>This will take you to a page that has 3 options about where you want your data to come from. Only the team that you are affiliated with, all teams, or specific teams.</p>
 			</div>
 
-            <div class="phone-column-2">
+            <div class="phone-column">
 				<Phone
 					src="/assets/img/source-tournaments.png"
 					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
@@ -84,7 +84,7 @@
 				<p>You will then be taken to a page where you will select what tournaments you want your data to come from.</p>
 			</div>
 
-            <div class="phone-column-2">
+            <div class="phone-column">
 				<Phone
 					src="/assets/img/tournament-onboarding.png"
 					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
@@ -320,10 +320,12 @@
 		font-size: 32px;
 		font-weight: 500;
 		color: var(--body);
+	}
+	.onboarding-content h2 {
 		margin-bottom: 50px;
 	}
 	p {
-		margin-top: 20px;
+		margin-top: 7px;
 		margin-bottom: 24px;
 		color: var(--body);
 	}
@@ -377,6 +379,11 @@
 		align-items: center;
 		gap: 20px;
 	}
+
+	.phone-column p {
+		margin-top: 20px;
+	}
+
 	.uploading-content {
 		max-width: 600px;
 		margin: 0 auto;
