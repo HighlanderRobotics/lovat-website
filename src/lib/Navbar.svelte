@@ -1,12 +1,16 @@
 <script>
 	import { onNavigate } from "$app/navigation";
-	import { Button, DensityProvider, Icon } from "magnolia-ui-svelte"
+	import { Button, DensityProvider, Icon, MenuWrapper, Menu, MenuButton } from "magnolia-ui-svelte"
 
     let expanded = false;
+    let isLearnOpen = false;
+
+    $: if (!expanded) isLearnOpen = false;
 
     onNavigate(() => {
-        expanded = false
-    })
+        expanded = false;
+        isLearnOpen = false;
+    });
 </script>
 <nav>
     <a href="https://frc8033.com/" target="_blank">
@@ -18,9 +22,14 @@
     </button>
     <DensityProvider density="compact">
         <div class="actions" class:expanded>
-            <Button variant="text-only-secondary" element="a" href="/scouting-lead">Scouting Lead</Button>
-            <Button variant="text-only-secondary" element="a" href="/dashboard">Dashboard</Button>
-            <Button variant="text-only-secondary" element="a" href="/collection">Collection</Button>
+            <MenuWrapper>
+                <Button variant="text-only-secondary" on:click={() => isLearnOpen = true}>Learn</Button>
+                <Menu bind:open={isLearnOpen}>
+                    <MenuButton element="a" href="/collection">Collection</MenuButton>
+                    <MenuButton element="a" href="/dashboard">Dashboard for Analysts</MenuButton>
+                    <MenuButton element="a" href="/scouting-lead">Dashboard for Scouting Leads</MenuButton>
+                </Menu>
+            </MenuWrapper>
             <Button variant="text-only-secondary" element="a" href="/about">About</Button>
             <Button variant="text-only-secondary" element="a" href="/contact">Contact</Button>
             <Button variant="secondary" element="a" href="/dashboard/download">Get Lovat Dashboard</Button>
@@ -84,7 +93,7 @@
         transform: translateY(-50%);
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
         .menu-button {
             display: block;
         }
