@@ -21,6 +21,12 @@
 	</div>
 </section>
 
+<section class="video">
+	<div class="video-content">
+		<iframe src="https://www.youtube.com/embed/F4bkGeY4V44?si=Vi2-lVquE4HN37Pd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+</section>
+
 <section class="onboarding">
 	<div class="onboarding-content">
 		<h2>Onboarding</h2>
@@ -228,11 +234,6 @@
 		max-width: 1100px;
 		margin: 0 auto;
 	}
-	
-	.onboarding {
-		background-color: var(--secondary-container);
-	}
-
 	.info > * {
 		max-width: 525px;
 		margin: 20px auto;
@@ -305,6 +306,10 @@
 		max-width: 600px;
 		margin: 0 auto;
 	}
+	
+	.settings-content {
+		background-color: var(--secondary-container);
+	}
 
 	.feature-content {
 		max-width: 800px;
@@ -315,10 +320,6 @@
 		max-width: 1100px;
 		margin: 0 auto;
 	}
-	
-	.picklist-content {
-		background-color: var(--secondary-container);
-	}
 
 	.scanner-content {
 		max-width: 600px;
@@ -326,9 +327,13 @@
 	}
     
     .match-content {
-        max-width: 800px;
-        margin: 0 auto;
+		background-color: var(--secondary-container);
     }
+
+	.match-data-viewer {
+		max-width: 800px;
+        margin: 0 auto;
+	}
 
 	.content-wrapper p {
 		margin: 0;
@@ -336,6 +341,19 @@
 		font-size: 24px;
 	}
 
+	.video {
+		background-color: var(--secondary-container);
+	}
+	.video-content {
+		max-width: 550px;
+		margin: 0 auto;
+	}
+
+	iframe {
+		border-radius: 14px;
+		aspect-ratio: 560 / 315;
+		width: 100%;
+	}
 	@media only screen and (max-width: 650px) {
 		.phone-row {
 			flex-direction: column;
