@@ -45,7 +45,7 @@
         position: absolute;
         left: 4.87%;
         right: 4.87%;
-        top: 2.72%;
+        top: 2.71%;
         bottom: 2.72%;
     }
 
