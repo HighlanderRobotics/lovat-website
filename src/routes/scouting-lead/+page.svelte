@@ -15,8 +15,9 @@
 				src="/assets/img/dashboard-icon.png"
 				alt="Screenshot of Lovat's Dashboard icon."
 			/>
-			<h1>Scouting Lead</h1>
+			<h1>Lovat Dashboard</h1>
 		</div>
+		<p>For scouting leads</p>
 	</div>
 </section>
 
@@ -328,6 +329,12 @@
         max-width: 800px;
         margin: 0 auto;
     }
+
+	.content-wrapper p {
+		margin: 0;
+		padding: 0;
+		font-size: 24px;
+	}
 
 	@media only screen and (max-width: 650px) {
 		.phone-row {

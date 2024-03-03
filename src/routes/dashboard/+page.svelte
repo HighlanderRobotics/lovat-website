@@ -17,6 +17,7 @@
 			/>
 			<h1>Lovat Dashboard</h1>
 		</div>
+		<p>For analysts</p>
 	</div>
 </section>
 
@@ -468,6 +469,12 @@
 	.scanner-content {
 		max-width: 600px;
 		margin: 20px auto;
+	}
+
+	.content-wrapper p {
+		margin: 0;
+		padding: 0;
+		font-size: 24px;
 	}
 
 	@media only screen and (max-width: 650px) {
