@@ -155,7 +155,7 @@
 			The amplify button glows while it is activated. If the alliance is no longer amplified but the button is still glowing, tap it again to deactivate it.
 		</p>
 	</div>
-	<div class="post-match">
+	<div class="single-info">
 		<div class="post-row">
 			<div class="left-phone">
 				<Phone
@@ -196,6 +196,25 @@
 				/>
 				<p class="uploading-text">
 					If the indicator says "Upload failed," ask your scouting lead to scan the QR code, or if they are not available, tap done and use the history page <Icon icon="history" /> to upload it later.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="settings">
+	<div class="single-info">
+		<div class="post-row">
+			<div class="left-phone">
+				<Phone
+					src="/assets/img/settings-collection.PNG"
+					alt="Screenshot of Lovat Collection's post match screen"
+				/>
+			</div>
+			<div class="right-phone">
+				<h2>Settings</h2>
+				<p>
+					You can set the field orientation based on which side of the field you're sitting on. Select auspicious for blue on the left, and sinister for red on the left. You can also select the tournament you're at. Enable training mode if you are testing the app or training scouters and want to use it without uploading data. It will disable the submit button in the post match screen and force you to discard any data you record. At the bottom of the page you can delete all settings and stored data and reset the app to its initial state.
 				</p>
 			</div>
 		</div>
@@ -273,6 +292,10 @@
 	.info {
 		background-color: var(--secondary-container);
 	}
+
+	.settings{
+		background-color: var(--secondary-container);
+	}
 	.phone-row {
 		text-align: center;
 		display: flex;
@@ -322,14 +345,18 @@
 		max-width: 255px;
 	}
 
-	.post-match h2 {
+	.single-info h2 {
 		margin-bottom: 7px;
 	}
 
-	.post-match p {
+	.single-info p {
 		margin: 0;
 	}
 
+	.single-info {
+		max-width: 600px;
+		margin: 0 auto;
+	}
     .forward-link {
         display: flex;
         align-items: center;

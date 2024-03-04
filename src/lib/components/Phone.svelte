@@ -45,7 +45,7 @@
         position: absolute;
         left: 4.87%;
         right: 4.87%;
-        top: 2.72%;
+        top: 2.71%;
         bottom: 2.72%;
     }
 
@@ -67,6 +67,8 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+		border-radius: 10px;
+		box-shadow: 0px 0px 80px 0px rgba(181, 154, 255, 0.4);
     }
 
     .phone__bezels {
