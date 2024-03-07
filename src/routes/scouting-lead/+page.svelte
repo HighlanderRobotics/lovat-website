@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Phone from '$lib/components/Phone.svelte';
-	import { Icon } from 'magnolia-ui-svelte';
 </script>
 
 <svelte:head>

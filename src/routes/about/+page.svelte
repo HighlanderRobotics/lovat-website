@@ -81,32 +81,4 @@
 		font-weight: 400;
 		line-height: normal;
 	}
-
-	.about {
-		background-color: var(--secondary-container);
-		padding: 88px 20px;
-	}
-
-	.about .content {
-		max-width: 675px;
-		margin: 0 auto;
-
-		color: var(--body);
-
-		/* Body/Medium */
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 400;
-		line-height: normal;
-	}
-
-	.about p {
-		margin-bottom: 1em;
-	}
-
-	@media (max-width: 630px) {
-		.about {
-			padding: 20px;
-		}
-	}
 </style>
