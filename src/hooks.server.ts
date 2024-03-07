@@ -15,7 +15,7 @@ const csrf =
 		if (forbidden) {
 			const csrfError = error(
 				403,
-				`Cross-site ${event.request.method} form submissions are forbidden`,
+				`Cross-site ${event.request.method} form submissions are forbidden`
 			);
 			if (event.request.headers.get('accept') === 'application/json') {
 				return json(csrfError.body, { status: csrfError.status });

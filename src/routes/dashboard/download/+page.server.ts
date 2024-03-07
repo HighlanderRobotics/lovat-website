@@ -2,8 +2,6 @@ import type { PageServerLoad } from './$types';
 import { UAParser } from 'ua-parser-js';
 import QRCode from 'qrcode';
 
-
-
 export const load: PageServerLoad = async ({ request, url }) => {
 	let deviceType: 'other' | 'ios' | 'android' = 'other';
 	let qrCode = '';
@@ -26,6 +24,6 @@ export const load: PageServerLoad = async ({ request, url }) => {
 
 	return {
 		deviceType,
-		qrCode,
+		qrCode
 	};
 };

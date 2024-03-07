@@ -17,10 +17,10 @@
 			/>
 			<h1>Lovat Collection</h1>
 		</div>
-        <a href="/collection/download" class="forward-link">
-            <span>Download</span>
-            <Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
-        </a>
+		<a href="/collection/download" class="forward-link">
+			<span>Download</span>
+			<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
+		</a>
 	</div>
 </section>
 
@@ -36,10 +36,10 @@
 		/>
 		<br />
 		<p>
-			This video covers every single feature in Lovat&nbsp;Collection including onboarding, settings, all
-			the game screens, and more. It is crucial that every single scouter watches this video in its
-			entirety. All the resources below are covered in the video, and are just there to serve as
-			reminders, not as alternate training materials.
+			This video covers every single feature in Lovat&nbsp;Collection including onboarding,
+			settings, all the game screens, and more. It is crucial that every single scouter watches this
+			video in its entirety. All the resources below are covered in the video, and are just there to
+			serve as reminders, not as alternate training materials.
 		</p>
 	</div>
 </section>
@@ -89,8 +89,9 @@
 				orientation="landscape-left"
 			/>
 			<p class="side-paragraph">
-				Before the match starts, select one of the four starting positions
-				for the robot, and indicate whether it starts with a note in the upper left. Immediately as the match starts, tap the <Icon icon="play_arrow" />
+				Before the match starts, select one of the four starting positions for the robot, and
+				indicate whether it starts with a note in the upper left. Immediately as the match starts,
+				tap the <Icon icon="play_arrow" />
 				button in the top right corner.
 			</p>
 		</div>
@@ -98,8 +99,8 @@
 	<div class="general-features">
 		<h2>General Features</h2>
 		<p>
-			If you make a mistake, you can use the <Icon icon="undo" /> button in the upper left corner. In the top
-			right you can see the team number you are tracking, whether it is auto, teleop, or pre-match,
+			If you make a mistake, you can use the <Icon icon="undo" /> button in the upper left corner. In
+			the top right you can see the team number you are tracking, whether it is auto, teleop, or pre-match,
 			and a button play button to tap when the match starts, and a stop button for when the match ends.
 		</p>
 	</div>
@@ -112,9 +113,9 @@
 		/>
 		<p class="side-paragraph">
 			During the autonomous period, if the robot you are scouting scores in the amp, use the button
-			at the edge. If it scores in the speaker, use the <Icon icon="speaker" /> button in the middle, and if the robot drops the
-			note, use the <Icon icon="output_circle" /> button. If the robot leaves the auto starting zone, tap anywhere in the
-			purple box.
+			at the edge. If it scores in the speaker, use the <Icon icon="speaker" /> button in the middle,
+			and if the robot drops the note, use the <Icon icon="output_circle" /> button. If the robot leaves
+			the auto starting zone, tap anywhere in the purple box.
 		</p>
 		<Phone
 			src="/assets/img/auto-2.PNG"
@@ -122,7 +123,9 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			If the robot leaves the auto starting area and doesn’t have a note, there are 8 yellow <Icon icon="upload" /> buttons corresponding to the action of collecting a note from one of the 8 locations.
+			If the robot leaves the auto starting area and doesn’t have a note, there are 8 yellow <Icon
+				icon="upload"
+			/> buttons corresponding to the action of collecting a note from one of the 8 locations.
 		</p>
 	</div>
 	<div class="teleop">
@@ -133,8 +136,13 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			During the teleop phase, if the robot does not have a note, you will have one larger yellow <Icon icon="upload" /> button to indicate the robot collecting a note from anywhere. If the robot is actively defending, tap the
-            <Icon icon="shield" /> button, and if the robot's alliance amplifies, tap the <Icon icon="campaign" /> button.
+			During the teleop phase, if the robot does not have a note, you will have one larger yellow <Icon
+				icon="upload"
+			/> button to indicate the robot collecting a note from anywhere. If the robot is actively defending,
+			tap the
+			<Icon icon="shield" /> button, and if the robot's alliance amplifies, tap the <Icon
+				icon="campaign"
+			/> button.
 		</p>
 		<Phone
 			src="/assets/img/teleop-2.PNG"
@@ -142,9 +150,12 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			Just like in auto, if the robot has a note, you can score in either the amp at the edge or
-			the speaker in the middle. If the robot scores in the trap, tap the <Icon icon="crisis_alert" /> in the middle. If
-			the robot drops its note, tap the <Icon icon="output_circle" /> button. On the side, you still have amplification and defense buttons, but you can also tap the <Icon icon="conveyor_belt" /> when the robot feeds its note to another robot in its alliance.
+			Just like in auto, if the robot has a note, you can score in either the amp at the edge or the
+			speaker in the middle. If the robot scores in the trap, tap the <Icon icon="crisis_alert" /> in
+			the middle. If the robot drops its note, tap the <Icon icon="output_circle" /> button. On the side,
+			you still have amplification and defense buttons, but you can also tap the <Icon
+				icon="conveyor_belt"
+			/> when the robot feeds its note to another robot in its alliance.
 		</p>
 		<Phone
 			src="/assets/img/amplified.jpeg"
@@ -152,7 +163,8 @@
 			orientation="landscape-left"
 		/>
 		<p class="side-paragraph">
-			The amplify button glows while it is activated. If the alliance is no longer amplified but the button is still glowing, tap it again to deactivate it.
+			The amplify button glows while it is activated. If the alliance is no longer amplified but the
+			button is still glowing, tap it again to deactivate it.
 		</p>
 	</div>
 	<div class="single-info">
@@ -195,7 +207,9 @@
 					alt="Screenshot of Lovat Collection's data upload page indicating that the data upload has failed."
 				/>
 				<p class="uploading-text">
-					If the indicator says "Upload failed," ask your scouting lead to scan the QR code, or if they are not available, tap done and use the history page <Icon icon="history" /> to upload it later.
+					If the indicator says "Upload failed," ask your scouting lead to scan the QR code, or if
+					they are not available, tap done and use the history page <Icon icon="history" /> to upload
+					it later.
 				</p>
 			</div>
 		</div>
@@ -214,7 +228,13 @@
 			<div class="right-phone">
 				<h2>Settings</h2>
 				<p>
-					You can set the field orientation based on which side of the field you're sitting on. Select auspicious for blue on the left, and sinister for red on the left. You can also select the tournament you're at. Enable training mode if you are testing the app or training scouters and want to use it without uploading data. It will disable the submit button in the post match screen and force you to discard any data you record. At the bottom of the page you can delete all settings and stored data and reset the app to its initial state.
+					You can set the field orientation based on which side of the field you're sitting on.
+					Select auspicious for blue on the left, and sinister for red on the left. You can also
+					select the tournament you're at. Enable training mode if you are testing the app or
+					training scouters and want to use it without uploading data. It will disable the submit
+					button in the post match screen and force you to discard any data you record. At the
+					bottom of the page you can delete all settings and stored data and reset the app to its
+					initial state.
 				</p>
 			</div>
 		</div>
@@ -293,7 +313,7 @@
 		background-color: var(--secondary-container);
 	}
 
-	.settings{
+	.settings {
 		background-color: var(--secondary-container);
 	}
 	.phone-row {
@@ -357,36 +377,36 @@
 		max-width: 600px;
 		margin: 0 auto;
 	}
-    .forward-link {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: var(--victory-purple);
+	.forward-link {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: var(--victory-purple);
 
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
 
-    .forward-link span {
-        color: var(--victory-purple);
-    }
+	.forward-link span {
+		color: var(--victory-purple);
+	}
 
-    .forward-link:visited {
-        color: var(--victory-purple);
-    }
+	.forward-link:visited {
+		color: var(--victory-purple);
+	}
 
-    .forward-link:hover span {
-        text-decoration: underline;
-    }
+	.forward-link:hover span {
+		text-decoration: underline;
+	}
 
-    .content-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-    }
+	.content-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 20px 0;
+	}
 
 	@media only screen and (max-width: 650px) {
 		.phone-row {

@@ -1,87 +1,95 @@
 <script lang="ts">
-	import { enhance } from "$app/forms";
-	import { Button, TextField } from "magnolia-ui-svelte";
+	import { enhance } from '$app/forms';
+	import { Button, TextField } from 'magnolia-ui-svelte';
 
-    let submitClicked = false;
+	let submitClicked = false;
 </script>
 
 <svelte:head>
-    <title>Get updates | Lovat</title>
+	<title>Get updates | Lovat</title>
 </svelte:head>
 
 <section class="info">
-    <div class="content">
-        <h1>Be the first to hear</h1>
-        <p>Lovat is currently released for the 2024 season. Join our mailing list to participate in opportunities to influence Lovat's features and receive updates about the system this year and beyond!</p>
-    </div>
+	<div class="content">
+		<h1>Be the first to hear</h1>
+		<p>
+			Lovat is currently released for the 2024 season. Join our mailing list to participate in
+			opportunities to influence Lovat's features and receive updates about the system this year and
+			beyond!
+		</p>
+	</div>
 </section>
 <section class="form">
-    <form method="POST" use:enhance on:submit={() => submitClicked = true}>
-        <label for="email">Email</label>
-        <TextField name="email" id="email" type="email" placeholder="woodie.flowers@firstinspires.org" required />
+	<form method="POST" use:enhance on:submit={() => (submitClicked = true)}>
+		<label for="email">Email</label>
+		<TextField
+			name="email"
+			id="email"
+			type="email"
+			placeholder="woodie.flowers@firstinspires.org"
+			required
+		/>
 
-        <label for="team">Team Number <span class="gray">(optional)</span></label>
-        <TextField name="team" id="team" placeholder="8033" />
+		<label for="team">Team Number <span class="gray">(optional)</span></label>
+		<TextField name="team" id="team" placeholder="8033" />
 
-        <div class="submit">
-            <Button disabled={submitClicked}>
-                Sign up
-            </Button>
-        </div>
-    </form>
+		<div class="submit">
+			<Button disabled={submitClicked}>Sign up</Button>
+		</div>
+	</form>
 </section>
 
 <style>
-    .info {
-        background-color: var(--secondary-container);
-        padding: 70px 20px;
-    }
+	.info {
+		background-color: var(--secondary-container);
+		padding: 70px 20px;
+	}
 
-    .info .content {
-        max-width: 460px;
-        margin: 0 auto;
-    }
+	.info .content {
+		max-width: 460px;
+		margin: 0 auto;
+	}
 
-    h1 {
-        color: var(--on-background);
-        font-size: 44px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 50px;
-        margin-bottom: 8px;
-    }
+	h1 {
+		color: var(--on-background);
+		font-size: 44px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 50px;
+		margin-bottom: 8px;
+	}
 
-    p {
-        color: var(--body);
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
+	p {
+		color: var(--body);
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
 
-    form {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-        margin: 30px auto;
-        padding: 0 20px;
-    }
+	form {
+		display: flex;
+		flex-direction: column;
+		max-width: 500px;
+		margin: 30px auto;
+		padding: 0 20px;
+	}
 
-    label {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-bottom: 7px;
-        margin-top: 14px;
-    }
+	label {
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-bottom: 7px;
+		margin-top: 14px;
+	}
 
-    .gray {
-        color: var(--body);
-    }
+	.gray {
+		color: var(--body);
+	}
 
-    .submit {
-        margin-left: auto;
-        margin-top: 20px;
-    }
+	.submit {
+		margin-left: auto;
+		margin-top: 20px;
+	}
 </style>

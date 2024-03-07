@@ -1,13 +1,7 @@
 <script lang="ts">
 	import FeatureHighlight from './FeatureHighlight.svelte';
 
-	let visibleDevices = [
-		true,
-		false,
-		false,
-		false,
-		false,
-	];
+	let visibleDevices = [true, false, false, false, false];
 </script>
 
 <div class="feature-scroller">
@@ -18,39 +12,39 @@
 		image="team-lookup.png"
 		firstDevice
 		bind:deviceWasVisible={visibleDevices[0]}
-		deviceIsActive={visibleDevices?.findLastIndex(v => v) === 0}
+		deviceIsActive={visibleDevices?.findLastIndex((v) => v) === 0}
 	/>
-    <FeatureHighlight
+	<FeatureHighlight
 		featureName="My Alliance"
 		headline="Coordinate, collaborate, dominate."
 		body="Spot your alliance’s strengths and weaknesses. Avoid conflicts by planning and visualizing auto paths with our auto path visualizer."
 		image="my-alliance.png"
 		bind:deviceWasVisible={visibleDevices[1]}
-		deviceIsActive={visibleDevices?.findLastIndex(v => v) === 1}
+		deviceIsActive={visibleDevices?.findLastIndex((v) => v) === 1}
 	/>
-    <FeatureHighlight
+	<FeatureHighlight
 		featureName="Match Prediction"
 		headline="Predict the future to change the future."
 		body="Adjust your strategy based on a variety of predictions. Quickly spot other alliances’ weaknesses by flipping in between the red and blue alliance."
 		image="match-predictor.png"
 		bind:deviceWasVisible={visibleDevices[2]}
-		deviceIsActive={visibleDevices?.findLastIndex(v => v) === 2}
+		deviceIsActive={visibleDevices?.findLastIndex((v) => v) === 2}
 	/>
-    <FeatureHighlight
+	<FeatureHighlight
 		featureName="Dynamic Picklists"
 		headline="Perfect your picklist."
 		body="Drag and drop the sliders to make one of 10^15 possible custom picklists. Then share with your team with the tap of a button."
 		image="picklist.png"
 		bind:deviceWasVisible={visibleDevices[3]}
-		deviceIsActive={visibleDevices?.findLastIndex(v => v) === 3}
+		deviceIsActive={visibleDevices?.findLastIndex((v) => v) === 3}
 	/>
-    <FeatureHighlight
+	<FeatureHighlight
 		featureName="Mutable Picklists"
 		headline="Test and tune."
 		body="Convert it to a mutable picklist to drag and drop teams into a different order, instantly updating your team with the changes without sharing a spreadsheet."
 		image="mutable-picklist.png"
 		bind:deviceWasVisible={visibleDevices[4]}
-		deviceIsActive={visibleDevices?.findLastIndex(v => v) === 4}
+		deviceIsActive={visibleDevices?.findLastIndex((v) => v) === 4}
 	/>
 </div>
 <div class="space" />
@@ -69,15 +63,15 @@
 	}
 
 	@media (max-width: 900px) {
-        .feature-scroller {
+		.feature-scroller {
 			align-items: start;
 		}
 	}
 
 	@media (max-width: 570px) {
-        .feature-scroller {
+		.feature-scroller {
 			align-items: center;
-			padding-top: 60px
+			padding-top: 60px;
 		}
 
 		.space {

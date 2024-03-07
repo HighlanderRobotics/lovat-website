@@ -3,8 +3,5 @@ import { imagetools } from 'vite-imagetools';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-	plugins: [
-		imagetools(),
-		sveltekit(),
-	]
+	plugins: [imagetools(), sveltekit()]
 });

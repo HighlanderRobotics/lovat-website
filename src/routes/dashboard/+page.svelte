@@ -235,10 +235,10 @@
 			<div class="right-phone">
 				<h2>Match Predictor</h2>
 				<p>
-					Each match in the match schedule page has a brain icon in the top right corner of the match.
-					Tapping this will take you to the match predictor page. Here, you can see the predicted
-					chance of each alliance winning, total score of each alliance, speaker scores, and amp
-					scores as well as the dominant role of each robot.
+					Each match in the match schedule page has a brain icon in the top right corner of the
+					match. Tapping this will take you to the match predictor page. Here, you can see the
+					predicted chance of each alliance winning, total score of each alliance, speaker scores,
+					and amp scores as well as the dominant role of each robot.
 				</p>
 			</div>
 		</div>
@@ -271,8 +271,8 @@
 			<div class="right-phone">
 				<h2>Navigation Drawer</h2>
 				<p>
-					If you open the drawer by tapping the menu icon or swiping from the left edge, you will have
-					an easy way to get to any of these pages.
+					If you open the drawer by tapping the menu icon or swiping from the left edge, you will
+					have an easy way to get to any of these pages.
 				</p>
 			</div>
 		</div>
