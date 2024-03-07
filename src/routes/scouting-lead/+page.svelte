@@ -265,7 +265,9 @@
 					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
 				/>
 				<p>
-					Tap a scouter to view each of the reports they have submitted, or tap <Icon icon="more_vert" /> to rename or delete them.
+					Tap a scouter to view each of the reports they have submitted, or tap <Icon
+						icon="more_vert"
+					/> to rename or delete them.
 				</p>
 			</div>
 		</div>
