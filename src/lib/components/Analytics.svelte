@@ -3,6 +3,7 @@
 
 	$: {
 		if (typeof gtag !== 'undefined') {
+			// eslint-disable-next-line
 			gtag('config', 'G-N8C6267EHH', {
 				page_title: document.title,
 				page_path: $page.url.pathname
