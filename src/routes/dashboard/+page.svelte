@@ -431,11 +431,6 @@
 	.info {
 		background-color: var(--secondary-container);
 	}
-	.side-paragraph {
-		max-width: 518px;
-		margin-bottom: 50px;
-		text-align: left;
-	}
 	.side-row {
 		display: flex;
 		flex-direction: row;
@@ -445,52 +440,6 @@
 
 	.phone-column p {
 		margin-top: 20px;
-	}
-
-	.uploading-content {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	.uploading-align {
-		max-width: 550px;
-		margin: 50px auto;
-	}
-	.uploading-text {
-		text-align: center;
-		margin: 0 auto;
-		max-width: 255px;
-	}
-
-	.post-match h2 {
-		margin-bottom: 7px;
-	}
-
-	.post-match p {
-		margin: 0;
-	}
-
-	.forward-link {
-		display: flex;
-		align-items: center;
-		text-decoration: none;
-		color: var(--victory-purple);
-
-		font-size: 17px;
-		font-style: normal;
-		font-weight: 500;
-		line-height: normal;
-	}
-
-	.forward-link span {
-		color: var(--victory-purple);
-	}
-
-	.forward-link:visited {
-		color: var(--victory-purple);
-	}
-
-	.forward-link:hover span {
-		text-decoration: underline;
 	}
 
 	.content-wrapper {

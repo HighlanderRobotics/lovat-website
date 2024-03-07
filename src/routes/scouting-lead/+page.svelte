@@ -160,16 +160,6 @@
 			</section>
 
 <style>
-	.left-phone {
-		flex: 1;
-		max-width: 250px;
-		margin-bottom: 20px;
-	}
-
-	.right-phone {
-		flex: 1;
-	}
-
 	section {
 		padding: 20px;
 	}
@@ -229,71 +219,10 @@
 	.phone-column {
 		max-width: 518px;
 	}
-	.onboarding-content,
-	.general-content {
+	.onboarding-content {
 		max-width: 1100px;
 		margin: 0 auto;
 	}
-	.info > * {
-		max-width: 525px;
-		margin: 20px auto;
-	}
-	.side-paragraph {
-		max-width: 518px;
-		margin-bottom: 50px;
-		text-align: left;
-	}
-	.side-row {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		gap: 20px;
-	}
-	.uploading-content {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	.uploading-align {
-		max-width: 550px;
-		margin: 50px auto;
-	}
-	.uploading-text {
-		text-align: center;
-		margin: 0 auto;
-		max-width: 255px;
-	}
-
-	.post-match h2 {
-		margin-bottom: 7px;
-	}
-
-	.post-match p {
-		margin: 0;
-	}
-
-    .forward-link {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: var(--victory-purple);
-
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    .forward-link span {
-        color: var(--victory-purple);
-    }
-
-    .forward-link:visited {
-        color: var(--victory-purple);
-    }
-
-    .forward-link:hover span {
-        text-decoration: underline;
-    }
 
     .content-wrapper {
         display: flex;
@@ -311,19 +240,9 @@
 		background-color: var(--secondary-container);
 	}
 
-	.feature-content {
-		max-width: 800px;
-		margin: 20px auto;
-	}
-
 	.picklist {
 		max-width: 1100px;
 		margin: 0 auto;
-	}
-
-	.scanner-content {
-		max-width: 600px;
-		margin: 20px auto;
 	}
     
     .match-content {
@@ -362,15 +281,6 @@
 
 		.header {
 			flex-direction: column;
-		}
-
-		.side-row {
-			flex-direction: column;
-		}
-
-		.left-phone {
-			flex: none;
-			width: 100%;
 		}
 	}
 </style>
