@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Lovat Dashbaord | Lovat</title>
+	<title>Lovat Dashboard | Lovat</title>
 </svelte:head>
 
 <section class="front-page">
