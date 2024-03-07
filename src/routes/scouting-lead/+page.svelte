@@ -128,6 +128,49 @@
 
 <section>
 	<div class="picklist">
+		<h2>Manage Scouters</h2>
+		<p>View all the scouters on your team and easily examine incoming data.</p>
+		<div class="phone-row">
+			<div>
+				<Phone
+					src="/assets/img/scouters-drawer.jpg"
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>
+					Navigate to the scouters page using the navigation drawer, which can be opened by tapping <Icon
+						icon="menu"
+					/>.
+				</p>
+			</div>
+
+			<div>
+				<Phone
+					src="/assets/img/scouters-overview.jpg"
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>
+					Track the number of reports submitted by each scouter, and the amount of matches they were
+					previously scheduled to scout that are missing data. Tap <Icon icon="add" /> to create a scouter.
+				</p>
+			</div>
+
+			<div>
+				<Phone
+					src="/assets/img/scouters-details.jpg"
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>
+					Tap a scouter to view each of the reports they have submitted, or tap <Icon
+						icon="more_vert"
+					/> to rename or delete them.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="picklist">
 		<h2>Scouter Shift</h2>
 		<p>
 			The next feature is scouter schedules, we highly recommend that you make scouter schedules
@@ -225,49 +268,6 @@
 				<p>
 					Scouting leads not only can see this page, but can delete the scout report they are
 					viewing by tapping the trash can in the upper righthand corner.
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="picklist">
-		<h2>Manage Scouters</h2>
-		<p>View all the scouters on your team and easily examine incoming data.</p>
-		<div class="phone-row">
-			<div>
-				<Phone
-					src="/assets/img/scouters-drawer.jpg"
-					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
-				/>
-				<p>
-					Navigate to the scouters page using the navigation drawer, which can be opened by tapping <Icon
-						icon="menu"
-					/>.
-				</p>
-			</div>
-
-			<div>
-				<Phone
-					src="/assets/img/scouters-overview.jpg"
-					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
-				/>
-				<p>
-					Track the number of reports submitted by each scouter, and the amount of matches they were
-					previously scheduled to scout that are missing data. Tap <Icon icon="add" /> to create a scouter.
-				</p>
-			</div>
-
-			<div>
-				<Phone
-					src="/assets/img/scouters-details.jpg"
-					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
-				/>
-				<p>
-					Tap a scouter to view each of the reports they have submitted, or tap <Icon
-						icon="more_vert"
-					/> to rename or delete them.
 				</p>
 			</div>
 		</div>
