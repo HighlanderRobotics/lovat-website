@@ -34,7 +34,7 @@
             <MatchCards matches={data.analysis.matches} teamNumber={data.team} />
             {#if data.analysis.teamMatchTimeline}
                 <MatchTimeline
-                    totalMatchCount={data.analysis.teamMatchTimeline?.matchCount}
+                    totalMatchCount={data.analysis.teamMatchTimeline?.matchCount + 1}
                     playedMatchCount={data.analysis.teamMatchTimeline?.currentMatchCount}
                     queueMatchCount={data.queueMatchCount}
                 />
