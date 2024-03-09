@@ -35,7 +35,7 @@
             {#if data.analysis.teamMatchTimeline}
                 <MatchTimeline
                     totalMatchCount={data.analysis.teamMatchTimeline?.matchCount + 1}
-                    playedMatchCount={data.analysis.teamMatchTimeline?.currentMatchCount}
+                    playedMatchCount={data.analysis.teamMatchTimeline?.currentMatchCount - 1}
                     queueMatchCount={data.queueMatchCount}
                 />
             {/if}
