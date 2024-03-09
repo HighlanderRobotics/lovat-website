@@ -19,7 +19,7 @@ export const load: PageServerLoad = async ({ url }) => {
     const topTeamCount = parseInt(queryParams.topTeamCount);
     const teamsAboveCount = parseInt(queryParams.teamsAboveCount);
 
-    const response = await fetch(`${LOVAT_API_BASE}/v1/analysis/pitdisplay`);
+    const response = await fetch(`${LOVAT_API_BASE}/v1/analysis/pitdisplay?team=${encodeURIComponent(team)}&tournamentKey=${encodeURIComponent(tournamentKey)}&topTeamCount=${encodeURIComponent(topTeamCount)}&teamsAboveCount=${encodeURIComponent(teamsAboveCount)}`);
 
     if (!response.ok) {
         throw new Error("Failed to fetch pit display data");
@@ -97,5 +97,6 @@ export const load: PageServerLoad = async ({ url }) => {
         topTeamCount,
         teamsAboveCount,
         analysis: pitDisplayResponse,
+        updatedAt: new Date(),
     }
 };
