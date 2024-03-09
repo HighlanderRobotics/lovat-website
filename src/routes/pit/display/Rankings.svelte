@@ -38,6 +38,7 @@
         flex-direction: column;
         gap: 7px;
         min-width: 200px;
-        overflow: scroll;
+        overflow-y: scroll;
+        scrollbar-color: var(--secondary-container) var(--background);
     }
 </style>
