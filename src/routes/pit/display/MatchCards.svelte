@@ -22,7 +22,7 @@
             });
         }
 
-        if (matches.next) {
+        if (matches.next && matches.next.key !== matches.teamNext?.key) {
             newCardMatches.push(matches.next);
         }
 
