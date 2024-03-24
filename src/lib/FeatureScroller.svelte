@@ -51,7 +51,6 @@
 
 <style>
 	.feature-scroller {
-		background-color: var(--secondary-container);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -59,7 +58,6 @@
 
 	.space {
 		height: 400px;
-		background-color: var(--secondary-container);
 	}
 
 	@media (max-width: 900px) {

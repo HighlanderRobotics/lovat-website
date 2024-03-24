@@ -4,6 +4,7 @@
 
 	import Hero from '$lib/Hero.svelte';
 	import MiscFeatures from '$lib/MiscFeatures.svelte';
+	import Statistics from '$lib/Statistics.svelte';
 </script>
 
 <svelte:head>
@@ -35,5 +36,6 @@
 
 <Hero />
 <FeatureScroller />
+<Statistics />
 <MiscFeatures />
 <CallToAction />
