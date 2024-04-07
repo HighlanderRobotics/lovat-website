@@ -6,8 +6,8 @@
     <div class="content">
         <div class="phone">
             <Phone
-				src="/assets/img/"
-				alt="Screenshot of "
+				src="/assets/img/collection-main-page.png"
+				alt="Screenshot of collection app."
 				orientation="landscape-left"
 			/>
         </div>
