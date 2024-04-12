@@ -3,8 +3,7 @@
 	import type { PageData } from './$types';
 
 	const appStoreLink = 'https://apps.apple.com/app/lovat-dashboard/id6467466592';
-	const apkLink =
-		'https://github.com/HighlanderRobotics/scouting_dashboard_app/releases/latest/download/app-release.apk';
+	const playStoreLink = 'https://play.google.com/store/apps/details?id=com.frc8033.lovatdashboard';
 
 	export let data: PageData;
 </script>
@@ -36,10 +35,10 @@
 				<Button element="a" href={appStoreLink}>App Store</Button>
 				<div class="other-platform">
 					<p>Using Android?</p>
-					<a href={apkLink}>Download the APK</a>
+					<a href={playStoreLink}>Play Store</a>
 				</div>
 			{:else if data.deviceType === 'android'}
-				<Button element="a" href={apkLink}>Download APK</Button>
+				<Button element="a" href={playStoreLink}>Play Store</Button>
 				<div class="other-plaform">
 					<p>Using iOS?</p>
 					<a href={appStoreLink}>App Store</a>
@@ -57,7 +56,7 @@
 					</div>
 					<div class="platform">
 						<p>Android</p>
-						<a href={apkLink}>Download APK</a>
+						<a href={playStoreLink}>Play Store</a>
 					</div>
 				</div>
 			{/if}
