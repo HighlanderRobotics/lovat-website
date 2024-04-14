@@ -3,40 +3,41 @@
 </script>
 
 <section>
-    <div class="content">
-        <div class="phone">
-            <Phone
+	<div class="content">
+		<div class="phone">
+			<Phone
 				src="/assets/img/collection-main-page.png"
-				alt="Screenshot of collection app."
+				alt="Screenshot of Lovat Collection's game screen."
 				orientation="landscape-left"
 			/>
-        </div>
+		</div>
 
-        <div class="blurb">
-            <h1>Scouting built for scouters.</h1>
-            <p class="side-paragraph">
-				The app presents only the actions the robot is capable of in the moment, minimizing distractions and eliminating the need to look away from the field.
+		<div class="blurb">
+			<h1>Scouting built for scouters.</h1>
+			<p class="side-paragraph">
+				The app presents only the actions the robot is capable of in the moment, minimizing
+				distractions and eliminating the need to look away from the field.
 			</p>
-        </div>
-    </div>
+		</div>
+	</div>
 </section>
 
 <style>
-    .content {
-        padding: 59px;
-    }
+	.content {
+		padding: 59px;
+	}
 
-    .phone {
-        max-width: 517.35px;
-        margin: 0 auto;
-    }
-    
-    .blurb {
-        margin: 50px auto;
-        max-width: 487px;
-    }
+	.phone {
+		max-width: 517.35px;
+		margin: 0 auto;
+	}
 
-    section {
-        background-color: var(--secondary-container);
-    }
+	.blurb {
+		margin: 50px auto;
+		max-width: 487px;
+	}
+
+	section {
+		background-color: var(--secondary-container);
+	}
 </style>
