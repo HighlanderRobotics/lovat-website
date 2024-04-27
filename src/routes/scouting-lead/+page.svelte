@@ -64,25 +64,33 @@
 
 <section class="settings-content">
 	<div class="settings">
-        <h2>Settings</h2>
-        <div class="phone-row">
-            <div class="phone-column">
-                <Phone
-                    src="/assets/img/lead-settings-1.PNG"
-                    alt="Screenshot displaying the team code portion of Lovat Dashboard's team lookup page"
-                />
-                <p>In addition to the normal settings, which you can learn more about in our Lovat Dashboard walk through, there are two scouting lead specific settings. The first being the team code, both scouters and Lovat Dashboard users will need this to join your team. To reveal the code tap the button in the upper right corner.</p>
-		    </div>
-    
-            <div class="phone-column">
-                <Phone                        
+		<h2>Settings</h2>
+		<div class="phone-row">
+			<div class="phone-column">
+				<Phone
+					src="/assets/img/lead-settings-1.PNG"
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>In addition to the normal settings, which you can learn more about in our Lovat Dashboard walk through, there are two scouting lead specific settings. The first being the team code, both scouters and Lovat Dashboard users will need this to join your team. To reveal the code tap the button in the upper right corner.</p>
+			</div>
+
+			<div class="phone-column-2">
+				<Phone
 					src="/assets/img/lead-settings-2.PNG"
-                    alt="Screenshot displaying the scouter name portion of Lovat Dashboard's team lookup page"
-                />
-                <p>Secondly, to upgrade users on your team from analyst to scouting leads go to the bottom of the settings page and select people from the list of analysts on your team. At this point in time we have no way of demoting people from scouting lead so ensure that you truly want to upgrade the people you are choosing before you do so.</p>
-            </div>
-        </div>
-</section>
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>Secondly, to upgrade users on your team from analyst to scouting leads go to the bottom of the settings page and select people from the list of analysts on your team. At this point in time we have no way of demoting people from scouting lead so ensure that you truly want to upgrade the people you are choosing before you do so.</p>
+			</div>
+
+			<div class="phone-column-2">
+				<Phone
+					src="/assets/img/lead-settings-3.PNG"
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>Finally, you can download a CSV of the data at a given tournament by tapping "Export CSV". Currently, it will give all the averages of the teams at the tournament you have selected. It uses data from all of the teams selected in the team source settings. Keep in mind that this button will only show up if you have a tournament choosen, and will only use the data from that tournament. More advanced data exporting will be coming soon!</p>
+			</div>
+		</div>
+	</section>
 
 		<section class="picklist-content">
             <div class="picklist">
@@ -154,15 +162,7 @@
 			</section>
 
 <style>
-	.left-phone {
-		flex: 1;
-		max-width: 250px;
-		margin-bottom: 20px;
-	}
 
-	.right-phone {
-		flex: 1;
-	}
 
 	section {
 		padding: 20px;
@@ -223,8 +223,7 @@
 	.phone-column {
 		max-width: 518px;
 	}
-	.onboarding-content,
-	.general-content {
+	.onboarding-content{
 		max-width: 1100px;
 		margin: 0 auto;
 	}
@@ -233,66 +232,6 @@
 		background-color: var(--secondary-container);
 	}
 
-	.info > * {
-		max-width: 525px;
-		margin: 20px auto;
-	}
-	.side-paragraph {
-		max-width: 518px;
-		margin-bottom: 50px;
-		text-align: left;
-	}
-	.side-row {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		gap: 20px;
-	}
-	.uploading-content {
-		max-width: 600px;
-		margin: 0 auto;
-	}
-	.uploading-align {
-		max-width: 550px;
-		margin: 50px auto;
-	}
-	.uploading-text {
-		text-align: center;
-		margin: 0 auto;
-		max-width: 255px;
-	}
-
-	.post-match h2 {
-		margin-bottom: 7px;
-	}
-
-	.post-match p {
-		margin: 0;
-	}
-
-    .forward-link {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: var(--victory-purple);
-
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    .forward-link span {
-        color: var(--victory-purple);
-    }
-
-    .forward-link:visited {
-        color: var(--victory-purple);
-    }
-
-    .forward-link:hover span {
-        text-decoration: underline;
-    }
 
     .content-wrapper {
         display: flex;
@@ -300,16 +239,12 @@
         align-items: center;
         padding: 20px 0;
     }
-	
-	.settings {
-		max-width: 600px;
-		margin: 0 auto;
-	}
 
-	.feature-content {
-		max-width: 800px;
-		margin: 20px auto;
-	}
+	.settings-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
 
 	.picklist {
 		max-width: 1100px;
@@ -320,11 +255,6 @@
 		background-color: var(--secondary-container);
 	}
 
-	.scanner-content {
-		max-width: 600px;
-		margin: 20px auto;
-	}
-    
     .match-content {
         max-width: 800px;
         margin: 0 auto;
@@ -336,6 +266,11 @@
 		font-size: 24px;
 	}
 
+	.settings-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
 	@media only screen and (max-width: 650px) {
 		.phone-row {
 			flex-direction: column;
@@ -346,13 +281,5 @@
 			flex-direction: column;
 		}
 
-		.side-row {
-			flex-direction: column;
-		}
-
-		.left-phone {
-			flex: none;
-			width: 100%;
-		}
 	}
 </style>
