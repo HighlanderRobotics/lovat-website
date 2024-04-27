@@ -1,7 +1,7 @@
 <section>
 	<div class="flex-row">
 		<div class="column">
-			<h1>41,000+</h1>
+			<h1>46,000</h1>
 			<p>Crescendo scout reports</p>
 		</div>
 		<div class="column">
@@ -9,7 +9,7 @@
 			<p>of tournaments scouted</p>
 		</div>
 		<div class="column">
-			<h1>3,400+</h1>
+			<h1>3.7k</h1>
 			<p>users & scouters registered</p>
 		</div>
 	</div>
