@@ -6,7 +6,7 @@
 		</div>
 		<div class="column">
 			<h1>77%</h1>
-			<p>of tournaments scouted</p>
+			<p>of 2024 tournaments scouted</p>
 		</div>
 		<div class="column">
 			<h1>3,700+</h1>
