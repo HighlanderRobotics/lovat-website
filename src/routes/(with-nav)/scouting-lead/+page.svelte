@@ -122,6 +122,14 @@
 					to upgrade the people you are choosing before you do so.
 				</p>
 			</div>
+
+			<div class="phone-column-2">
+				<Phone
+					src="/assets/img/lead-settings-3.PNG"
+					alt="Screenshot displaying the scouter name portion of Lovat Collection's onboarding flow"
+				/>
+				<p>Finally, you can download a CSV of the data at a given tournament by tapping "Export CSV". Currently, it will give all the averages of the teams at the tournament you have selected. It uses data from all of the teams selected in the team source settings. Keep in mind that this button will only show up if you have a tournament choosen, and will only use the data from that tournament. More advanced data exporting will be coming soon!</p>
+			</div>
 		</div>
 	</div>
 </section>
@@ -347,7 +355,7 @@
 	}
 
 	.settings {
-		max-width: 600px;
+		max-width: 800px;
 		margin: 0 auto;
 	}
 
