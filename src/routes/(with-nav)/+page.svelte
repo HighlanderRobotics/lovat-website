@@ -1,9 +1,11 @@
 <script>
 	import CallToAction from '$lib/CallToAction.svelte';
+	import CollectionSection from '$lib/CollectionSection.svelte';
 	import FeatureScroller from '$lib/FeatureScroller.svelte';
 
 	import Hero from '$lib/Hero.svelte';
 	import MiscFeatures from '$lib/MiscFeatures.svelte';
+	import Statistics from '$lib/Statistics.svelte';
 </script>
 
 <svelte:head>
@@ -34,6 +36,8 @@
 </svelte:head>
 
 <Hero />
+<CollectionSection />
 <FeatureScroller />
+<Statistics />
 <MiscFeatures />
 <CallToAction />
