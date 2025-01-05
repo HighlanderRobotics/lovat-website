@@ -7,24 +7,32 @@ export const actions = {
 		const data = await request.formData();
 
 		const email = data.get('email');
-		const team = data.get('team');
 
-		const body = {
-			email: email,
-			teamNumber: team
-		};
-
-		if (env.WAITLIST_WEBHOOK == null) {
+		if (env.RESEND_KEY == null) {
 			throw error(500, "We weren't able to sign you up.");
 		}
 
-		const response = await fetch(env.WAITLIST_WEBHOOK, {
-			method: 'POST',
-			body: JSON.stringify(body)
-		});
+		console.log('Sending email to ' + email);
 
-		if ((await response.text()) !== 'Waitlist item recorded.') {
-			console.log(`Received an error when attempting to POST to the webhook: ${response.body}`);
+		const response = await fetch(
+			'https://api.resend.com/audiences/efdae99e-d819-41a8-8373-041db3873707/contacts',
+			{
+				method: 'post',
+				headers: {
+					Authorization: 'Bearer ' + env.RESEND_KEY,
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					email: email,
+					unsubscribed: false
+				})
+			}
+		);
+
+		if (!response.ok) {
+			console.log(
+				`Received an error when attempting to POST to the webhook: ${await response.text()}`
+			);
 			throw error(500, "We weren't able to sign you up.");
 		}
 
