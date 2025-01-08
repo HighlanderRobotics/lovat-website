@@ -180,5 +180,8 @@
 			visibility: visible;
 			transform: translateY(0%);
 		}
+		div.banner-box {
+			flex-direction: column; 
+		}
 	}
 </style>
