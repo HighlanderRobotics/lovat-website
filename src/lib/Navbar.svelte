@@ -181,14 +181,7 @@
 			transform: translateY(0%);
 		}
 		div.banner-box {
-			display: flex;
-			font-size: 16px;
-			font-weight: 400;
 			flex-direction: column; 
-			max-width: 1000px;
-			margin: 0 auto;
-			padding: 10px 24px;
-			justify-content: space-between;
 		}
 	}
 </style>
