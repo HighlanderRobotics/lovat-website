@@ -11,7 +11,7 @@ export const actions = {
 		const team = data.get('team');
 		const message = data.get('message');
 
-		if (team === '8033') {
+		if (team === '8033' || team!.toString().length > 5) {
 			throw redirect(303, '/contact/success'); // Bot trap
 		}
 
