@@ -34,7 +34,7 @@
 						<MenuButton element="a" href="/scouting-lead">Dashboard for Scouting Leads</MenuButton>
 					</Menu>
 				</MenuWrapper> -->
-				<Button variant="text-only-secondary" element="a" href="https://lovat-learn.highlanderrobotics.com">Learn</Button>
+				<Button variant="text-only-secondary" element="a" href="https://lovat-learn.highlanderrobotics.com/guides/welcome">Learn</Button>
 				<Button variant="text-only-secondary" element="a" href="/about">About</Button>
 				<Button variant="text-only-secondary" element="a" href="/contact">Contact</Button>
 				<Button variant="secondary" element="a" href="/dashboard/download"
