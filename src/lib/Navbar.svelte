@@ -26,14 +26,15 @@
 		</button>
 		<DensityProvider density="compact">
 			<div class="actions" class:expanded>
-				<MenuWrapper>
+				<!-- <MenuWrapper>
 					<Button variant="text-only-secondary" on:click={() => (isLearnOpen = true)}>Learn</Button>
 					<Menu bind:open={isLearnOpen}>
 						<MenuButton element="a" href="/collection">Collection</MenuButton>
 						<MenuButton element="a" href="/dashboard">Dashboard for Analysts</MenuButton>
 						<MenuButton element="a" href="/scouting-lead">Dashboard for Scouting Leads</MenuButton>
 					</Menu>
-				</MenuWrapper>
+				</MenuWrapper> -->
+				<Button variant="text-only-secondary" element="a" href="https://lovat-learn.highlanderrobotics.com">Learn</Button>
 				<Button variant="text-only-secondary" element="a" href="/about">About</Button>
 				<Button variant="text-only-secondary" element="a" href="/contact">Contact</Button>
 				<Button variant="secondary" element="a" href="/dashboard/download"
@@ -46,9 +47,9 @@
 	{#if hasBanner}
 		<div class="secondary-container">
 			<div class="banner-box">
-				<p>Development for Lovat 2025 is underway!</p>
+				<p>Lovat for Reefscape is here!</p>
 				<a href="/get-updates" class="stayupdated">
-					<span>Stay updated</span>
+					<span>Learn More</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
 				</a>
 				
