@@ -48,7 +48,7 @@
 		<div class="secondary-container">
 			<div class="banner-box">
 				<p>Lovat for Reefscape is here!</p>
-				<a href="https://frc8033.slack.com/archives/C0883CL1KU1/p1740100381751849" class="stayupdated">
+				<a href="https://www.chiefdelphi.com/t/lovat-is-here-2025/492533" class="stayupdated">
 					<span>Learn More</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
 				</a>
