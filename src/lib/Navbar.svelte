@@ -48,7 +48,7 @@
 		<div class="secondary-container">
 			<div class="banner-box">
 				<p>Lovat for Reefscape is here!</p>
-				<a href="/get-updates" class="stayupdated">
+				<a href="https://www.chiefdelphi.com/t/lovat-scouting-2025/479193" class="stayupdated">
 					<span>Learn More</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
 				</a>
