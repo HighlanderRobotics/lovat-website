@@ -41,12 +41,11 @@
 			<h1>Centralize your team’s strategy in minutes.</h1>
 			<p>Easily view real-time analytics built on human-collected data.</p>
 			<div class="button-items">
-				<Button variant="primary" element="a" href="/get-updates">Keep me updated</Button
-				>
-				<!-- <a href="/dashboard/download">
-					<span>Get Lovat Dashboard</span>
+				<Button variant="primary" element="a" href="/dashboard/download">Get Lovat Dashboard</Button>
+				<a href="/get-updates">
+					<span>Stay Updated</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
-				</a> -->
+				</a>
 			</div>
 		</div>
 	</div>
