@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tanstack/svelte-query": "^5.66.11",
 		"magnolia-ui-svelte": "github:highlanderrobotics/magnolia-ui-svelte#production",
 		"qrcode": "^1.5.3",
 		"ua-parser-js": "^1.0.36",

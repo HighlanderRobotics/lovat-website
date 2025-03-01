@@ -1,8 +1,7 @@
-import type { PageServerLoad } from './$types';
-import { z } from 'zod';
 import { getPitData } from '$lib/util/getPitData';
+import { z } from 'zod';
 
-export const load: PageServerLoad = async ({ url }) => {
+export async function GET({ url }) {
 	const queryParams = z
 		.object({
 			tournamentKey: z.string(),
@@ -19,5 +18,9 @@ export const load: PageServerLoad = async ({ url }) => {
 	const topTeamCount = parseInt(queryParams.topTeamCount);
 	const teamsAboveCount = parseInt(queryParams.teamsAboveCount);
 
-	return await getPitData(tournamentKey, team, queueMatchCount, topTeamCount, teamsAboveCount);
-};
+	return new Response(
+		JSON.stringify(
+			await getPitData(tournamentKey, team, queueMatchCount, topTeamCount, teamsAboveCount)
+		)
+	);
+}
