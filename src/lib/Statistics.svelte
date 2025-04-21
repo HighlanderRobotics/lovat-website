@@ -1,15 +1,15 @@
 <section>
 	<div class="flex-row">
 		<div class="column">
-			<h1>46,000+</h1>
-			<p>Crescendo scout reports</p>
+			<h1>95,000+</h1>
+			<p>Reefscape scout reports</p>
 		</div>
 		<div class="column">
-			<h1>77%</h1>
-			<p>of 2024 tournaments scouted</p>
+			<h1>550+</h1>
+			<p>registered teams</p>
 		</div>
 		<div class="column">
-			<h1>3,700+</h1>
+			<h1>9,300+</h1>
 			<p>users & scouters registered</p>
 		</div>
 	</div>
