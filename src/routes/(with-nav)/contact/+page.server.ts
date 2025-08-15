@@ -11,8 +11,23 @@ export const actions = {
 		const team = data.get('team');
 		const message = data.get('message');
 
-		if (team === '8033' || (team && (/^\d{6,}$/.test(team.toString())))) {
-			throw redirect(303, '/contact/success'); // Bot trap
+		// Silently reject messages from bots that just copy the placeholder
+		if (team === '8033') {
+			throw redirect(303, '/contact/success');
+		}
+
+		// Validate team number if provided
+		if (team && team.toString().trim() !== '') {
+			const teamNum = parseInt(team.toString());
+
+			if (isNaN(teamNum)) {
+				throw error(400, 'Team number must be a valid number');
+			}
+
+			// Silent rejection for length > 5 digits so bots don't catch on
+			if (teamNum.toString().length > 5) {
+				throw redirect(303, '/contact/success');
+			}
 		}
 
 		const body = {
