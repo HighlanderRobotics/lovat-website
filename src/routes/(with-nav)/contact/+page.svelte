@@ -3,6 +3,22 @@
 	import { Button, TextField } from 'magnolia-ui-svelte';
 
 	let submitClicked = false;
+	let teamValue = '';
+	let teamError = '';
+
+	// Reactive validation - runs whenever teamValue changes
+	$: {
+		if (teamValue.trim() === '') {
+			teamError = ''; // No error for empty (optional field)
+		} else {
+			const teamNum = parseInt(teamValue);
+			if (isNaN(teamNum)) {
+				teamError = 'Must be a number';
+			} else {
+				teamError = ''; // Valid number
+			}
+		}
+	}
 </script>
 
 <svelte:head>
@@ -33,13 +49,19 @@
 		/>
 
 		<label for="team">Team Number <span class="gray">(optional)</span></label>
-		<TextField name="team" id="team" placeholder="8033" />
+		<TextField
+			name="team"
+			id="team"
+			placeholder="8033"
+			bind:value={teamValue}
+			errorMessage={teamError || null}
+		/>
 
 		<label for="message">Message</label>
 		<textarea name="message" id="message" placeholder="I would love to see..." required />
 
 		<div class="submit">
-			<Button disabled={submitClicked}>Send</Button>
+			<Button disabled={submitClicked || !!teamError}>Send</Button>
 		</div>
 	</form>
 </section>
