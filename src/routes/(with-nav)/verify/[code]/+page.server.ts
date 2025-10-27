@@ -24,6 +24,11 @@ export const load: PageServerLoad = async ({ params }) => {
 				title: 'Invalid link.',
 				body: "The link you entered isn't recognized. Make sure you entered the entire link correctly."
 			};
+		} else if (text === 'CODE_EXPIRED') {
+			return {
+				title: 'Link expired.',
+				body: 'The link you used has expired. Try sending it again.'
+			};
 		} else if (text === 'EMAIL_ALREADY_VERIFIED') {
 			return {
 				title: 'Email already verified.',
