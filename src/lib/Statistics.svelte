@@ -1,15 +1,15 @@
 <section>
 	<div class="flex-row">
 		<div class="column">
-			<h1>95,000+</h1>
+			<h1>100,000+</h1>
 			<p>Reefscape scout reports</p>
 		</div>
 		<div class="column">
-			<h1>550+</h1>
+			<h1>600+</h1>
 			<p>registered teams</p>
 		</div>
 		<div class="column">
-			<h1>9,300+</h1>
+			<h1>10,600+</h1>
 			<p>users & scouters registered</p>
 		</div>
 	</div>
