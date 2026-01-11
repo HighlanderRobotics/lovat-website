@@ -48,7 +48,7 @@
 		</DensityProvider>
 	</nav>
 
-	<!-- {#if hasBanner}
+	{#if hasBanner}
 		<div class="secondary-container">
 			<div class="banner-box">
 				<p>Development for Lovat 2026 is underway!</p>
@@ -58,7 +58,7 @@
 				</a>
 			</div>
 		</div>
-	{/if} -->
+	{/if}
 </div>
 
 <style>
