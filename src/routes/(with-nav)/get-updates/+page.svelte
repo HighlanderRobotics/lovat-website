@@ -14,7 +14,7 @@
 		<h1>Be the first to hear</h1>
 		<p>
 			The team is hard at work rebuilding Lovat for the 2026 game. It will be released by February
-			28th. Subscribe to get updates on progress and opportunities to test the system.
+			19th. Subscribe to get updates on progress and opportunities to test the system.
 		</p>
 	</div>
 </section>
