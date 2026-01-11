@@ -51,9 +51,9 @@
 	<!-- {#if hasBanner}
 		<div class="secondary-container">
 			<div class="banner-box">
-				<p>Lovat for Reefscape is here!</p>
-				<a href="https://www.chiefdelphi.com/t/lovat-is-here-2025/492533" class="stayupdated">
-					<span>Learn More</span>
+				<p>Development for Lovat 2026 is underway!</p>
+				<a href="/get-updates" class="stayupdated">
+					<span>Stay updated</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
 				</a>
 			</div>

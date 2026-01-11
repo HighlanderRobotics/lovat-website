@@ -13,9 +13,8 @@
 	<div class="content">
 		<h1>Be the first to hear</h1>
 		<p>
-			Lovat is currently released for the 2025 season. Join our mailing list to participate in
-			opportunities to influence Lovat's features and receive updates about the system this year and
-			beyond!
+			The team is hard at work rebuilding Lovat for the 2026 game. We expect to release
+			by February 19th. Subscribe to get updates on progress and opportunities to test the system.
 		</p>
 	</div>
 </section>
