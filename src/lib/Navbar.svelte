@@ -1,15 +1,11 @@
 <script>
 	import { onNavigate } from '$app/navigation';
-	import { Button, DensityProvider, Icon, MenuWrapper, Menu, MenuButton } from 'magnolia-ui-svelte';
+	import { Button, DensityProvider, Icon } from 'magnolia-ui-svelte';
 
 	let expanded = false;
-	let isLearnOpen = false;
-
-	$: if (!expanded) isLearnOpen = false;
 
 	onNavigate(() => {
 		expanded = false;
-		isLearnOpen = false;
 	});
 
 	export let hasBanner = false;
