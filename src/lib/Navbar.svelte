@@ -37,7 +37,7 @@
 				<Button
 					variant="text-only-secondary"
 					element="a"
-					href="https://lovat-learn.highlanderrobotics.com/guides/welcome">Learn</Button
+					href="https://learn.lovat.app/guides/welcome">Learn</Button
 				>
 				<Button variant="text-only-secondary" element="a" href="/about">About</Button>
 				<Button variant="text-only-secondary" element="a" href="/contact">Contact</Button>
