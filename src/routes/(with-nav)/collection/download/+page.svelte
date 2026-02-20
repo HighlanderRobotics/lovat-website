@@ -26,13 +26,6 @@
 					>Lovat&nbsp;Dashboard</a
 				> and follow the steps to register.
 			</p>
-
-			<p class="ios-notice">
-				<strong>iOS update pending:</strong> The iOS version is currently awaiting App Store
-				approval. In the meantime, you can join our
-				<a href="https://testflight.apple.com/join/5F6K5YwB">TestFlight group</a> to access the latest
-				version.
-			</p>
 		</div>
 		<div class="download">
 			{#if data.deviceType === 'ios'}
@@ -96,17 +89,6 @@
 	.info p {
 		color: var(--body);
 		margin-bottom: 1em;
-	}
-
-	.ios-notice {
-		background-color: var(--secondary-container);
-		padding: 12px 16px;
-		border-radius: 8px;
-		margin-top: 16px;
-	}
-
-	.ios-notice strong {
-		color: var(--on-background);
 	}
 
 	h1 {
