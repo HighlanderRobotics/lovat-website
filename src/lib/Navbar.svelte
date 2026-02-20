@@ -47,7 +47,7 @@
 	{#if hasBanner}
 		<div class="secondary-container">
 			<div class="banner-box">
-				<p>Development for Lovat 2026 is underway!</p>
+				<p>Lovat 2026 has been released!</p>
 				<a href="/get-updates" class="stayupdated">
 					<span>Stay updated</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
