@@ -48,7 +48,7 @@
 		</div>
 
 		<div class="help">
-			<p>Have any questions? <a href="/about">Get in touch</a></p>
+			<p>Have any questions? <a href="/contact">Get in touch</a></p>
 		</div>
 	</div>
 </div>
