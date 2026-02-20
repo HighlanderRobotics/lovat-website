@@ -5,7 +5,7 @@
 <section>
 	<h1>Scale up your strategy.</h1>
 	<div>
-		<Button element="a" href="/dashboard/download">Get Lovat Dashboard</Button>
+		<Button element="a" href="/download">Get Started</Button>
 	</div>
 </section>
 
