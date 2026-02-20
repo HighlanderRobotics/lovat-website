@@ -46,8 +46,12 @@
 		<div class="secondary-container">
 			<div class="banner-box">
 				<p>Lovat 2026 has been released!</p>
-				<a href="/get-updates" class="stayupdated">
-					<span>Stay updated</span>
+				<a
+					href="https://www.chiefdelphi.com/t/lovat-2026-is-here/514682"
+					target="_blank"
+					class="stayupdated"
+				>
+					<span>Read the post</span>
 					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
 				</a>
 			</div>
