@@ -18,13 +18,20 @@
 			<h1>Install Lovat&nbsp;Collection</h1>
 			<p>
 				Scouters should download Lovat&nbsp;Collection, enter their team code, add their names, and
-				watch the <a href="https://youtu.be/aebdSmZ6o_Q">training video</a>.
+				watch the <a href="https://www.youtube.com/watch?v=LYKE8soFBJ8">training video</a>.
 			</p>
 
 			<p>
 				If your team isn't on Lovat yet, have a scouting lead download <a href="/dashboard/download"
 					>Lovat&nbsp;Dashboard</a
 				> and follow the steps to register.
+			</p>
+
+			<p class="ios-notice">
+				<strong>iOS update pending:</strong> The iOS version is currently awaiting App Store
+				approval. In the meantime, you can join our
+				<a href="https://testflight.apple.com/join/5F6K5YwB">TestFlight group</a> to access the latest
+				version.
 			</p>
 		</div>
 		<div class="download">
@@ -89,6 +96,17 @@
 	.info p {
 		color: var(--body);
 		margin-bottom: 1em;
+	}
+
+	.ios-notice {
+		background-color: var(--secondary-container);
+		padding: 12px 16px;
+		border-radius: 8px;
+		margin-top: 16px;
+	}
+
+	.ios-notice strong {
+		color: var(--on-background);
 	}
 
 	h1 {
