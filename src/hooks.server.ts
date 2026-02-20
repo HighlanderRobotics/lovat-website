@@ -1,4 +1,4 @@
-import { error, json, text, type Handle } from '@sveltejs/kit';
+import { json, text, type Handle } from '@sveltejs/kit';
 
 /**
  * CSRF protection copied from sveltekit but with the ability to turn it off for specific routes.
@@ -13,14 +13,11 @@ const csrf =
 			!allowedPaths.includes(event.url.pathname);
 
 		if (forbidden) {
-			const csrfError = error(
-				403,
-				`Cross-site ${event.request.method} form submissions are forbidden`
-			);
+			const message = `Cross-site ${event.request.method} form submissions are forbidden`;
 			if (event.request.headers.get('accept') === 'application/json') {
-				return json(csrfError.body, { status: csrfError.status });
+				return json({ message }, { status: 403 });
 			}
-			return text(csrfError.body.message, { status: csrfError.status });
+			return text(message, { status: 403 });
 		}
 
 		return resolve(event);

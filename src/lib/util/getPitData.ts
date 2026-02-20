@@ -1,5 +1,5 @@
 import { LOVAT_API_BASE } from '$env/static/private';
-import { PitDisplayData, pitDisplayResponseSchema } from './pitDataType';
+import { type PitDisplayData, pitDisplayResponseSchema } from './pitDataType';
 
 export const getPitData = async (
 	tournamentKey: string,
