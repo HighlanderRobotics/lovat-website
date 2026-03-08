@@ -5,7 +5,7 @@
 			<p>Reefscape scout reports</p>
 		</div>
 		<div class="column">
-			<h1>600+</h1>
+			<h1>650+</h1>
 			<p>registered teams</p>
 		</div>
 		<div class="column">
