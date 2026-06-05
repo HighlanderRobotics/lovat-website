@@ -36,7 +36,7 @@
         <span>Read the whitepaper</span>
         <Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
     </a> -->
-	<a href="https://www.youtube.com/watch?v=KfoBazx2k-s" target="_blank">
+	<a href="https://www.youtube.com/watch?v=LYKE8soFBJ8" target="_blank">
 		<span>Watch the video</span>
 		<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
 	</a>
