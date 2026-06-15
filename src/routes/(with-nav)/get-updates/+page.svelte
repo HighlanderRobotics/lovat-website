@@ -30,7 +30,7 @@
 		<TextField name="team" id="team" placeholder="8033" />
 
 		<div class="submit">
-			<Button disabled={submitClicked}>Sign up</Button>
+			<Button disabled={true}>Sign up</Button>
 		</div>
 	</form>
 </section>
