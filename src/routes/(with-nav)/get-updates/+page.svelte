@@ -29,9 +29,6 @@
 		<label for="team">Team Number <span class="gray">(optional)</span></label>
 		<TextField name="team" id="team" placeholder="8033" />
 
-		<div class="submit">
-			<Button disabled={true}>Sign up</Button>
-		</div>
 	</form>
 </section>
 
