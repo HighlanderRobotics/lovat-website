@@ -42,10 +42,6 @@
 			<p>Easily view real-time analytics built on human-collected data.</p>
 			<div class="button-items">
 				<Button variant="primary" element="a" href="/download">Get Started</Button>
-				<a href="/get-updates">
-					<span>Stay Updated</span>
-					<Icon icon="navigate_next" color="var(--victory-purple)" size={28} />
-				</a>
 			</div>
 		</div>
 	</div>
